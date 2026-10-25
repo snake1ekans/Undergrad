@@ -169,9 +169,19 @@
           "icon": "lucide-list",
           "title": "Outline"
         }
+      },
+      {
+        "id": "8d2a1863a69201b8",
+        "type": "leaf",
+        "state": {
+          "type": "git-view",
+          "state": {},
+          "icon": "git-pull-request",
+          "title": "Source Control"
+        }
       }
     ],
-    "currentTab": 2
+    "currentTab": 3
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,11 +205,29 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "_functional/TaskNotes/Tasks/chess database.md",
+    "_functional/TaskNotes/Tasks/mental heath essay.md",
+    "_functional/TaskNotes/Tasks/Términos problemáticos.md",
+    "_functional/TaskNotes/Tasks/presentation response.md",
+    "_functional/TaskNotes/Tasks/Caso clinico.md",
+    "_functional/TaskNotes/Tasks/Ch 13 quiz.md",
+    "_functional/TaskNotes/Tasks/ch 13 lectura.md",
+    "_functional/TaskNotes/Tasks/Reading response.md",
+    "_functional/TaskNotes/Tasks/Rugh fri reading.md",
+    "_functional/TaskNotes/Tasks/Rugh wed reading.md",
+    "_functional/TaskNotes/Tasks/Rugh Mon reading.md",
+    "_functional/TaskNotes/Tasks/Seely.md",
+    "_functional/TaskNotes/Tasks/L22.md",
+    "_functional/TaskNotes/Tasks/R23.md",
+    "_functional/TaskNotes/Tasks/R22.md",
+    "_functional/TaskNotes/Tasks/R21.md",
+    "_functional/TaskNotes/Tasks/L21.md",
     "Home/Welcome, Gavin.md",
     "_functional/TaskNotes/Tasks/Exam review.md",
     "_functional/TaskNotes/Tasks/Conley ch 10.md",
@@ -209,24 +237,7 @@
     "_functional/TaskNotes/Tasks/Smartwork 19.md",
     "_functional/TaskNotes/Tasks/Smartwork 18-2.md",
     "_functional/TaskNotes/Tasks/R20-2.md",
-    "_functional/TaskNotes/Tasks/Chem Exam 2.md",
-    "_functional/TaskNotes/Tasks/R19.md",
-    "_functional/TaskNotes/Tasks/R18.md",
-    "_functional/TaskNotes/Tasks/Phase 3 block 1.md",
-    "_functional/TaskNotes/Tasks/Términos problemáticos lasts.md",
-    "_functional/TaskNotes/Tasks/Caso clínico.md",
-    "_functional/TaskNotes/Tasks/Presentación pediatría.md",
-    "_functional/TaskNotes/Tasks/Animación convención lasts.md",
-    "_functional/TaskNotes/Tasks/Entrevista crianza de los hijos.md",
-    "_functional/TaskNotes/Tasks/Ch 12 prueba.md",
-    "_functional/TaskNotes/Tasks/Capítulo 12 reading.md",
-    "_functional/TaskNotes/Tasks/Terminos Problematicos.md",
-    "_functional/TaskNotes/Tasks/Presentation Response pharma.md",
-    "_functional/TaskNotes/Tasks/Seely Dialog and Report.md",
-    "_functional/TaskNotes/Tasks/Scholarship Application.md",
     "_functional/TaskNotes/Views/agenda-default.base",
-    "Wikis/Biology/Virulence.md",
-    "Wikis/Academia/BUSCO.md",
     "_functional/TaskNotes/Views/calendar-default.base",
     "_functional/TaskNotes/Views/tasks-default.base",
     "_functional/TaskNotes/Views/mini-calendar-default.base",
