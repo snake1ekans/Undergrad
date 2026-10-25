@@ -1,0 +1,21 @@
+{
+  "unlockedSpecies": [
+    "bluebird",
+    "barnSwallow",
+    "spangledCotinga"
+  ],
+  "currentSpecies": "spangledCotinga",
+  "unlockedHats": [
+    "none",
+    "cordovan-hat",
+    "wizard-hat",
+    "sun-hat",
+    "beanie",
+    "top-hat"
+  ],
+  "currentHat": "none",
+  "settings": {
+    "firstTime": false,
+    "name": "Boid"
+  }
+}

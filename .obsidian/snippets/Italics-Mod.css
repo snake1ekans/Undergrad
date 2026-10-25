@@ -1,0 +1,30 @@
+
+
+body {
+--italic-color: #e34521;
+--blockquote-background-color: #2c0500;
+--blockquote-
+
+}
+
+
+/* headers */
+
+.markdown-rendered h1, .cm-line:has(.cm-header-1) {
+	width: fit-content;
+	background-color: var(--light-theme-white);
+	color: var(--dark-theme-black);
+	font-family: "Sans Condensed Black";
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+    padding: 2px 14px !important; 
+    position: relative !important;
+    left: -6px !important;
+    display: block;
+}
+
+.bases-embed[alt~="no-header"] {
+    .bases-header { 
+    display: none;
+    }
+}

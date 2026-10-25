@@ -1,0 +1,19 @@
+{
+  "file-explorer:new-file": [],
+  "notebook-navigator:new-note": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "N"
+    }
+  ],
+  "omnisearch:show-modal": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "O"
+    }
+  ]
+}

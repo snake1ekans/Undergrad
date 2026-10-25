@@ -1,0 +1,239 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "4509724f8bf84da7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7a7b303c61786dc",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home/Welcome, Gavin.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Welcome, Gavin"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "38a17e5365979844",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "9280b4d7cd367dbf",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "7c65555eb55ceb5d",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "9147922f9af827b4",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "cf2f808866f9dc61",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-archive",
+          "title": "All properties"
+        }
+      },
+      {
+        "id": "32f79197fee11760",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      },
+      {
+        "id": "3d34590f5443bfca",
+        "type": "leaf",
+        "state": {
+          "type": "notebook-navigator",
+          "state": {},
+          "icon": "notebook-navigator",
+          "title": "Notebook Navigator"
+        }
+      }
+    ],
+    "currentTab": 5
+  },
+  "right": {
+    "id": "53abf90d70ec7a04",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "651e48ead9327277",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Home/Welcome, Gavin.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "7489924036dd9562",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "54b8aa8c342fe89b",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Home/Welcome, Gavin.md",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      }
+    ],
+    "currentTab": 2
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "homepage:Open homepage": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "pexels-banner:🚩 Pixel Banner Menu": false,
+      "notebook-navigator:Notebook Navigator": false,
+      "templater-obsidian:Templater": false,
+      "tasknotes:Open mini calendar view": false,
+      "tasknotes:Open calendar view": false,
+      "tasknotes:Open tasks view": false,
+      "tasknotes:Open agenda view": false,
+      "tasknotes:Open Kanban board": false,
+      "tasknotes:Open Pomodoro timer": false,
+      "tasknotes:Open Pomodoro statistics": false,
+      "tasknotes:Create new task": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "e7a7b303c61786dc",
+  "lastOpenFiles": [
+    "Home/Welcome, Gavin.md",
+    "_functional/TaskNotes/Tasks/Exam review.md",
+    "_functional/TaskNotes/Tasks/Conley ch 10.md",
+    "_functional/TaskNotes/Tasks/Steely stuff.md",
+    "_functional/TaskNotes/Tasks/Copper chameleon.md",
+    "_functional/TaskNotes/Tasks/Smartwork 20.md",
+    "_functional/TaskNotes/Tasks/Smartwork 19.md",
+    "_functional/TaskNotes/Tasks/Smartwork 18-2.md",
+    "_functional/TaskNotes/Tasks/R20-2.md",
+    "_functional/TaskNotes/Tasks/Chem Exam 2.md",
+    "_functional/TaskNotes/Tasks/R19.md",
+    "_functional/TaskNotes/Tasks/R18.md",
+    "_functional/TaskNotes/Tasks/Phase 3 block 1.md",
+    "_functional/TaskNotes/Tasks/Términos problemáticos lasts.md",
+    "_functional/TaskNotes/Tasks/Caso clínico.md",
+    "_functional/TaskNotes/Tasks/Presentación pediatría.md",
+    "_functional/TaskNotes/Tasks/Animación convención lasts.md",
+    "_functional/TaskNotes/Tasks/Entrevista crianza de los hijos.md",
+    "_functional/TaskNotes/Tasks/Ch 12 prueba.md",
+    "_functional/TaskNotes/Tasks/Capítulo 12 reading.md",
+    "_functional/TaskNotes/Tasks/Terminos Problematicos.md",
+    "_functional/TaskNotes/Tasks/Presentation Response pharma.md",
+    "_functional/TaskNotes/Tasks/Seely Dialog and Report.md",
+    "_functional/TaskNotes/Tasks/Scholarship Application.md",
+    "_functional/TaskNotes/Views/agenda-default.base",
+    "Wikis/Biology/Virulence.md",
+    "Wikis/Academia/BUSCO.md",
+    "_functional/TaskNotes/Views/calendar-default.base",
+    "_functional/TaskNotes/Views/tasks-default.base",
+    "_functional/TaskNotes/Views/mini-calendar-default.base",
+    "_functional/TaskNotes/Views/relationships.base",
+    "_functional/TaskNotes/Views/kanban-default.base",
+    "_functional/TaskNotes/Views/pomodoro-stats.base",
+    "IMG_5079.jpg",
+    "IMG_5078.jpg"
+  ]
+}

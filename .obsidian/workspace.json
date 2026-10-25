@@ -1,0 +1,303 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "4509724f8bf84da7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7a7b303c61786dc",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home/Welcome, Gavin.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Welcome, Gavin"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "68d8a62afb965459",
+    "type": "split",
+    "children": [
+      {
+        "id": "791874f8046af4da",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2533a64849c5d313",
+            "type": "leaf",
+            "state": {
+              "type": "notebook-navigator",
+              "state": {},
+              "icon": "notebook-navigator",
+              "title": "Notebook Navigator"
+            }
+          },
+          {
+            "id": "852db7d79b4b94e8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "6be4eac02c808c44",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "4835bcf2928b3fb4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 305.93359375
+  },
+  "right": {
+    "id": "e79ec039f4504b17",
+    "type": "split",
+    "children": [
+      {
+        "id": "b13530d3bac175fc",
+        "type": "tabs",
+        "dimension": 26.35009310986965,
+        "children": [
+          {
+            "id": "39bb5f44fa91bed6",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "833b22541451ee80",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Home/Welcome, Gavin.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "90acbf873092fb5d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Home/Welcome, Gavin.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "d97369e86c893a0d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "9190e4d6ef3a1243",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "7c60b018a3ee12ff",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      },
+      {
+        "id": "e00317d3e4ac930b",
+        "type": "tabs",
+        "dimension": 73.64990689013035,
+        "children": [
+          {
+            "id": "5f75b612e15fbd81",
+            "type": "leaf",
+            "state": {
+              "type": "obsidian-agent-sidebar",
+              "state": {},
+              "icon": "square-slash",
+              "title": "Vault Operator"
+            }
+          },
+          {
+            "id": "f17fe170a6a9cc62",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Notebooks/Daily Dumps/2026-10-14.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "graph:Open graph view": false,
+      "daily-notes:Open today's daily note": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "homepage:Open homepage": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "vault-operator:Vault Operator": false,
+      "pexels-banner:🚩 Pixel Banner Menu": false,
+      "notebook-navigator:Notebook Navigator": false,
+      "templater-obsidian:Templater": false,
+      "tasknotes:Open mini calendar view": false,
+      "tasknotes:Open calendar view": false,
+      "tasknotes:Open tasks view": false,
+      "tasknotes:Open agenda view": false,
+      "tasknotes:Open Kanban board": false,
+      "tasknotes:Open Pomodoro timer": false,
+      "tasknotes:Open Pomodoro statistics": false,
+      "tasknotes:Create new task": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "e7a7b303c61786dc",
+  "lastOpenFiles": [
+    "Home/Welcome, Gavin.md",
+    "_functional/TaskNotes/Tasks/Thank you card for Grandma.md",
+    "Home/Sociology Discussion 2.md",
+    "_functional/TaskNotes/Tasks/Digital Dialog.md",
+    "Home/Assignments/Art Museum Write-up.md",
+    "_functional/TaskNotes/Tasks/Write up UCUR abstract.md",
+    "Notebooks/Daily Dumps/2026-10-06.md",
+    "Notebooks/Daily Dumps/2026-09-17.md",
+    "IMG_5078.jpg",
+    "Home/Assignments/Mola Mola paper Analysis.md",
+    "Social Stratification.md",
+    "Home/Assignments/Sociology Discussion 1.md",
+    "Home/Assignments/rel 200 interview notes.md",
+    "Home/Assignments/REL 200 pre-class quiz.md",
+    "Home/Assignments/Brimhall Essay.md",
+    "Wikis/Academia/List of Research tools.md",
+    "Notebooks/Daily Dumps/2026-10-21.md",
+    "Notebooks/Daily Dumps/2026-10-20.md",
+    "Notebooks/Daily Dumps/2026-10-19.md",
+    "Notebooks/Daily Dumps/2026-10-14.md",
+    "Notebooks/Daily Dumps/2026-10-16.md",
+    "_functional/TaskNotes/Tasks/Art Museum Assignment.md",
+    "Notebooks/Daily Dumps/2026-10-15.md",
+    "_functional/TaskNotes/Tasks/Get video for Life science research deadline due.md",
+    "_functional/TaskNotes/Tasks/Write up Abstract for UCUR and CURA.md",
+    "Wikis/Anatomy/Limbic System.md",
+    "Wikis/Biology/Krebs Cycle.md",
+    "Wikis/Anatomy",
+    "IMG_5079.jpg",
+    "Home/Assignments",
+    "Notebooks/Class Rants",
+    "Notebooks",
+    "_functional/TaskNotes/Tasks",
+    "Wikis/Social Sciences",
+    "Wikis/Academia",
+    "Wikis",
+    "_functional/82D1763E-D49D-45C5-834D-6ACB1F9AA9D3_1_201_a.jpeg",
+    "_functional/bdf8c8d1706de58ed33dbece1b03fddf.png",
+    "_functional/bdf8c8d1706de58ed33dbece1b03fddf.jpg",
+    "_functional/Portrait_phasmid.png",
+    "_functional/templates",
+    "Wikis/Statistics",
+    "_functional/2e73150c0ab935904bcecca40118e54e.jpeg"
+  ]
+}
