@@ -1,0 +1,1 @@
+Also known as Amphoteric, molecules that have both [[basic]] and [[acidic]] functions

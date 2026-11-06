@@ -3,7 +3,7 @@ id: global-search
 name: Search
 source: core
 plugin-type: core
-status: enabled
+status: disabled
 class: PARTIAL
 description: "Full-text search across the vault"
 has-settings: false
@@ -22,7 +22,7 @@ Use this skill only when the user explicitly wants to open the search UI. For pr
 
 ## Setup Required
 
-No settings file found (data.json). Plugin may need initial setup via Obsidian Settings.
+Plugin is disabled. Use enable_plugin to activate it first.
 
 ## Configuration File
 

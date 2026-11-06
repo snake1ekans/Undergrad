@@ -1,0 +1,1 @@
+A process in which [[peptide|peptides]] are moved. They stop when the [[pH]] = [[pI]]

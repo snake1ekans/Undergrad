@@ -1,0 +1,1 @@
+A type of study that focuses on a [[population]]}and the data is only collected a single time, which is normally used to determine the prevalance of a thing in a population.

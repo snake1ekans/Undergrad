@@ -71,29 +71,27 @@ left:
   type: split
   children: [1 items: {...}...]
   direction: horizontal
-  width: 305.93359375
+  width: 270.27629470825195
 right:
   id: e79ec039f4504b17
   type: split
   children: [2 items: {...}, {...}...]
   direction: horizontal
-  width: 300
+  width: 271.4842529296875
 left-ribbon:
   hiddenItems:
-    switcher:Open quick switcher: false
-    canvas:Create new canvas: false
-    templates:Insert template: false
-    graph:Open graph view: false
+    workspaces:Manage workspace layouts: false
     daily-notes:Open today's daily note: false
     command-palette:Open command palette: false
-    bases:Create new base: false
+    graph:Open graph view: false
+    bases:Create new base: true
     homepage:Open homepage: false
     omnisearch:Omnisearch: false
-    obsidian-excalidraw-plugin:New drawing: false
-    vault-operator:Vault Operator: false
     pexels-banner:🚩 Pixel Banner Menu: false
     notebook-navigator:Notebook Navigator: false
     templater-obsidian:Templater: false
+    vault-operator:Vault Operator: false
+    obsidian-git:Open Git source control: false
     tasknotes:Open mini calendar view: false
     tasknotes:Open calendar view: false
     tasknotes:Open tasks view: false
@@ -103,7 +101,7 @@ left-ribbon:
     tasknotes:Open Pomodoro statistics: false
     tasknotes:Create new task: false
 active: e7a7b303c61786dc
-lastOpenFiles: [43 items: Home/Welcome, Gavin.md, _functional/TaskNotes/Tasks/Thank you card for Grandma.md, Home/Sociology Discussion 2.md...]
+lastOpenFiles: [43 items: Home/Welcome, Gavin.md, Statistical Significance.md, Convenience Sampling.md...]
 ```
 
 For full settings, read: `.obsidian/workspace.json`

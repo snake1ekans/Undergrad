@@ -1,0 +1,201 @@
+{
+  "workspaces": {
+    "Big Screen Space": {
+      "main": {
+        "id": "5324373015726ba8",
+        "type": "split",
+        "children": [
+          {
+            "id": "4509724f8bf84da7",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "e7a7b303c61786dc",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Home/Welcome, Gavin.md",
+                    "mode": "preview",
+                    "source": false
+                  },
+                  "pinned": true,
+                  "icon": "lucide-file",
+                  "title": "Welcome, Gavin"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "68d8a62afb965459",
+        "type": "split",
+        "children": [
+          {
+            "id": "791874f8046af4da",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "2533a64849c5d313",
+                "type": "leaf",
+                "state": {
+                  "type": "notebook-navigator",
+                  "state": {},
+                  "icon": "notebook-navigator",
+                  "title": "Notebook Navigator"
+                }
+              },
+              {
+                "id": "4835bcf2928b3fb4",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              },
+              {
+                "id": "ce6d947967faef2d",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 270.27629470825195
+      },
+      "right": {
+        "id": "e79ec039f4504b17",
+        "type": "split",
+        "children": [
+          {
+            "id": "b13530d3bac175fc",
+            "type": "tabs",
+            "dimension": 26.35009310986965,
+            "children": [
+              {
+                "id": "39bb5f44fa91bed6",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {},
+                  "icon": "lucide-git-fork",
+                  "title": "Graph view"
+                }
+              },
+              {
+                "id": "833b22541451ee80",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Home/Welcome, Gavin.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks"
+                }
+              },
+              {
+                "id": "7c60b018a3ee12ff",
+                "type": "leaf",
+                "state": {
+                  "type": "git-view",
+                  "state": {},
+                  "icon": "git-pull-request",
+                  "title": "Source Control"
+                }
+              }
+            ]
+          },
+          {
+            "id": "e00317d3e4ac930b",
+            "type": "tabs",
+            "dimension": 73.64990689013035,
+            "children": [
+              {
+                "id": "5f75b612e15fbd81",
+                "type": "leaf",
+                "state": {
+                  "type": "obsidian-agent-sidebar",
+                  "state": {},
+                  "icon": "square-slash",
+                  "title": "Vault Operator"
+                }
+              },
+              {
+                "id": "f17fe170a6a9cc62",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "Notebooks/Daily Dumps/2026-10-14.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 271.4842529296875
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "homepage:Open homepage": false,
+          "tasknotes:Create new task": false,
+          "daily-notes:Open today's daily note": false,
+          "omnisearch:Omnisearch": false,
+          "command-palette:Open command palette": false,
+          "graph:Open graph view": false,
+          "bases:Create new base": true,
+          "obsidian-excalidraw-plugin:New drawing": true,
+          "vault-operator:Vault Operator": false,
+          "pexels-banner:🚩 Pixel Banner Menu": true,
+          "notebook-navigator:Notebook Navigator": true,
+          "templater-obsidian:Templater": true,
+          "tasknotes:Open mini calendar view": true,
+          "tasknotes:Open calendar view": true,
+          "tasknotes:Open tasks view": true,
+          "tasknotes:Open agenda view": true,
+          "tasknotes:Open Kanban board": true,
+          "tasknotes:Open Pomodoro timer": true,
+          "tasknotes:Open Pomodoro statistics": true,
+          "obsidian-git:Open Git source control": false,
+          "workspaces:Manage workspace layouts": false
+        }
+      },
+      "active": "e7a7b303c61786dc",
+      "mtime": "2026-11-05T23:40:24-07:00"
+    }
+  },
+  "active": "Big Screen Space"
+}

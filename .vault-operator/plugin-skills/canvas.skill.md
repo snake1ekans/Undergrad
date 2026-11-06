@@ -3,7 +3,7 @@ id: canvas
 name: Canvas
 source: core
 plugin-type: core
-status: enabled
+status: disabled
 class: FULL
 description: "Visual canvas with cards, links, and spatial notes"
 has-settings: false
@@ -28,7 +28,7 @@ Use this skill when the user wants to create visual boards, mind maps, or spatia
 
 ## Setup Required
 
-No settings file found (data.json). Plugin may need initial setup via Obsidian Settings.
+Plugin is disabled. Use enable_plugin to activate it first.
 
 ## Configuration File
 

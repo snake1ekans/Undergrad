@@ -1,0 +1,1 @@
+called the Isoelectric point, its the [[pH]] at which a molecule carries no [[net charge]]

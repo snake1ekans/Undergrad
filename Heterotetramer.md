@@ -1,0 +1,1 @@
+A type of protein with 4 (tet) different (hetero) domains that make up the [[Protein#Quaternary Structure|quaternary structure]]. An example of a heterotetramer is [[Hemoglobin]], which has 2 alpha and beta chains each that make up its subgroup.

@@ -1,0 +1,1 @@
+The cortex of the brain that is used in [[Emotion]] and [[Motivation]] in humans and many animals

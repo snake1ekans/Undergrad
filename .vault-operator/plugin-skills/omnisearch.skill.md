@@ -60,9 +60,9 @@ recencyBoost: 0
 ignoreDiacritics: true
 ignoreArabicDiacritics: false
 indexFilesWithoutExtension: false
-PDFIndexing: false
+PDFIndexing: true
 officeIndexing: false
-imagesIndexing: false
+imagesIndexing: true
 aiImageIndexing: false
 unsupportedFilesIndexing: default
 splitCamelCase: false
@@ -71,9 +71,11 @@ ribbonIcon: true
 showExcerpt: true
 maxEmbeds: 5
 renderLineReturnInExcerpts: true
+excerptSkipFrontmatter: true
 showCreateButton: false
 highlight: true
 showPreviousQueryResults: true
+scrollToMatch: true
 simpleSearch: false
 tokenizeUrls: false
 fuzziness: 1

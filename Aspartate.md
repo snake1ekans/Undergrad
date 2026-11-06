@@ -1,0 +1,1 @@
+Structurally very similar to [[Glutamate]], which means substitution doesn't have a significant effect on [[Protein#tertiary structure|tertiary structure]].

@@ -1,0 +1,1 @@
+Validity that is concerned with [[generalizability]], or how well the results can be applied to other situations.

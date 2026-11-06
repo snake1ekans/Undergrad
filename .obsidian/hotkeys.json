@@ -15,5 +15,76 @@
       ],
       "key": "O"
     }
+  ],
+  "markdown:add-alias": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "A"
+    }
+  ],
+  "file-explorer:new-file-in-new-pane": [],
+  "obsidian-git:push2": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "G"
+    }
+  ],
+  "obsidian-git:pull": [
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl"
+      ],
+      "key": "G"
+    }
+  ],
+  "obsidian-git:commit": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "G"
+    }
+  ],
+  "notebook-navigator:new-note-from-template": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "N"
+    }
+  ],
+  "notebook-navigator:open-daily-note": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "D"
+    }
+  ],
+  "editor:delete-paragraph": [],
+  "homepage:open-homepage": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "H"
+    }
+  ],
+  "tasknotes:create-new-task": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "J"
+    }
   ]
 }

@@ -1,0 +1,1 @@
+The validity that is concerned with causality and internal logic. As internal validity increases, [[External Validity]] decreases because the study less reflects real life.

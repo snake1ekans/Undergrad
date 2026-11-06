@@ -50,6 +50,12 @@ commands:
     name: "Notebook Navigator: Open quarterly note"
   - id: "notebook-navigator:open-yearly-note"
     name: "Notebook Navigator: Open yearly note"
+  - id: "notebook-navigator:open-next-periodic-note"
+    name: "Notebook Navigator: Open next periodic note"
+  - id: "notebook-navigator:open-previous-periodic-note"
+    name: "Notebook Navigator: Open previous periodic note"
+  - id: "notebook-navigator:open-parent-periodic-note"
+    name: "Notebook Navigator: Open parent periodic note"
   - id: "notebook-navigator:select-profile"
     name: "Notebook Navigator: Select vault profile"
   - id: "notebook-navigator:select-profile-1"
@@ -160,6 +166,9 @@ Available command IDs (use execute_command for Obsidian-native commands):
 - `notebook-navigator:open-monthly-note` -- Notebook Navigator: Open monthly note
 - `notebook-navigator:open-quarterly-note` -- Notebook Navigator: Open quarterly note
 - `notebook-navigator:open-yearly-note` -- Notebook Navigator: Open yearly note
+- `notebook-navigator:open-next-periodic-note` -- Notebook Navigator: Open next periodic note
+- `notebook-navigator:open-previous-periodic-note` -- Notebook Navigator: Open previous periodic note
+- `notebook-navigator:open-parent-periodic-note` -- Notebook Navigator: Open parent periodic note
 - `notebook-navigator:select-profile` -- Notebook Navigator: Select vault profile
 - `notebook-navigator:select-profile-1` -- Notebook Navigator: Select vault profile 1
 - `notebook-navigator:select-profile-2` -- Notebook Navigator: Select vault profile 2
@@ -255,6 +264,7 @@ syncModes:
   calendarPlacement: synced
   calendarLeftPlacement: synced
   calendarWeeksToShow: synced
+  defaultListMode: synced
   compactItemHeight: synced
   compactItemHeightScaleText: synced
   featureImageSize: synced
@@ -317,6 +327,7 @@ deleteAttachments: always
 moveFileConflicts: ask
 showReleaseNotes: true
 checkForUpdatesOnStart: true
+showMarkdownPointBannerAtTop: true
 pinNavigationBanner: true
 showNoteCount: true
 separateNoteCounts: true
@@ -504,8 +515,9 @@ pinnedNotes:
     folder: true
     tag: false
     property: false
+folderChildOrder:
+  /: [Home, Notebooks, Wikis, _functional]
 userColors: [#ffffff, #d9d9d9, #a6a6a6, #737373, #000000, #404040, #404040, #404040, #404040, #404040, #404040, #404040, #404040, #404040, #404040, #404040, #404040, #404040, #404040, #404040]
-rootFolderOrder: [Home, Notebooks, Wikis, _functional]
 ```
 
 For full settings, read: `.obsidian/plugins/notebook-navigator/data.json`

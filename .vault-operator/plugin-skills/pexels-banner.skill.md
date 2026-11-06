@@ -104,20 +104,24 @@ customBannerIconBorderRadiusField: [icon-border-radius]
 customBannerIconVerticalOffsetField: [icon-y]
 customBannerIconImageAlignmentField: [banner-icon-image-alignment]
 customFlagColorField: [pixel-banner-flag-color]
+customBannerConfettiField: [banner-confetti]
 contentStartPosition: 250
 imageDisplay: cover
 imageRepeat: false
 bannerHeight: 350
 bannerMaxWidth: 2560
+bannerMaxWidthReadable: false
+bannerPositionTransition: true
 fade: -60
 bannerFadeInAnimationDuration: 309
 borderRadius: 0
 showPinIcon: false
 pinnedImageFolder: pixel-banner-images
 pinnedImageFilename: pixel-banner-image
+useNoteFilenameForBanner: false
 imagePropertyFormat: image
 showReleaseNotes: true
-lastVersion: 3.6.18
+lastVersion: 3.7.3
 showRefreshIcon: false
 showViewImageIcon: false
 hidePixelBannerFields: true
@@ -127,6 +131,8 @@ enableImageShuffle: false
 hideEmbeddedNoteTitles: false
 hideEmbeddedNoteBanners: false
 showBannerInPopoverPreviews: true
+popoverBannerMaxHeight: 150
+includeBannerInPdfExport: true
 showSelectImageIcon: false
 selectImageIconOpacity: 0
 selectImageIconFlag: red
@@ -145,6 +151,7 @@ bannerIconVerticalOffset: 0
 bannerIconImageAlignment: left
 openTargetingModalAfterSelectingBannerOrIcon: true
 enableDailyGame: false
+confettiDisableOnMobile: false
 ```
 (5 sensitive field(s) redacted)
 

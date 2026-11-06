@@ -1,0 +1,1 @@
+A [[List of Sampling Methods|sampling method]] in which participants are selected by their ease of access.

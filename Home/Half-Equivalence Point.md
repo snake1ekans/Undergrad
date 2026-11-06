@@ -1,0 +1,1 @@
+The point on a [[Titration Curve]] where [[pH]] = [[pKa]] and [[Henderson-HasselBalch equation|HA]] = A-

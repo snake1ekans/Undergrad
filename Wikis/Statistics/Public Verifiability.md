@@ -1,0 +1,1 @@
+Whether or not the results of a [[study]] can be verified and replicated by other scientists.

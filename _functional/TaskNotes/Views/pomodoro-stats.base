@@ -14,32 +14,32 @@ formulas:
   attemptedPomos: 'if(note["pomodoros"], list(note["pomodoros"]).filter(value.type == "work").length, 0)'
   interruptedPomos: 'if(note["pomodoros"], list(note["pomodoros"]).filter(value.type == "work" && value.completed == false).length, 0)'
   focusMinutes: 'if(note["pomodoros"], list(note["pomodoros"]).filter(value.type == "work" && value.completed == true).map(if(value.plannedDuration && value.plannedDuration > 0, value.plannedDuration, if(value.startTime && value.endTime, ((number(date(value.endTime)) - number(date(value.startTime))) / 60000).round(), 0))).reduce(acc + value, 0).round(), 0)'
-  focusTime: 'if(formula.focusMinutes >= 60, (formula.focusMinutes / 60).floor() + "h " + (formula.focusMinutes % 60).round() + "m", formula.focusMinutes + "m")'
-  completionRate: 'if(formula.attemptedPomos > 0, (formula.completedPomos / formula.attemptedPomos * 100).round() + "%", "0%")'
+  focusTime: "if(formula.focusMinutes >= 60, (if(((formula.focusMinutes / 60).floor()) >= 1000 || ((formula.focusMinutes / 60).floor()) <= -1000, (\"\" + ((formula.focusMinutes / 60).floor())).replace(/\\B(?=(\\d{3})+(?!\\d))/g, \",\"), (\"\" + ((formula.focusMinutes / 60).floor()))) + \"h \" + if(((formula.focusMinutes % 60).round()) >= 1000 || ((formula.focusMinutes % 60).round()) <= -1000, (\"\" + ((formula.focusMinutes % 60).round())).replace(/\\B(?=(\\d{3})+(?!\\d))/g, \",\"), (\"\" + ((formula.focusMinutes % 60).round()))) + \"m\"), (if((formula.focusMinutes) >= 1000 || (formula.focusMinutes) <= -1000, (\"\" + (formula.focusMinutes)).replace(/\\B(?=(\\d{3})+(?!\\d))/g, \",\"), (\"\" + (formula.focusMinutes))) + \"m\"))"
+  completionRate: "(if((if(formula.attemptedPomos > 0, (formula.completedPomos / formula.attemptedPomos * 100).round(), 0)) >= 1000 || (if(formula.attemptedPomos > 0, (formula.completedPomos / formula.attemptedPomos * 100).round(), 0)) <= -1000, (\"\" + (if(formula.attemptedPomos > 0, (formula.completedPomos / formula.attemptedPomos * 100).round(), 0))).replace(/\\B(?=(\\d{3})+(?!\\d))/g, \",\"), (\"\" + (if(formula.attemptedPomos > 0, (formula.completedPomos / formula.attemptedPomos * 100).round(), 0)))) + \"%\")"
   shortBreaks: 'if(note["pomodoros"], list(note["pomodoros"]).filter(value.type == "short-break").length, 0)'
   longBreaks: 'if(note["pomodoros"], list(note["pomodoros"]).filter(value.type == "long-break").length, 0)'
 
 properties:
   formula.pomodoroDate:
-    displayName: Date
+    displayName: "Date"
   formula.pomodoroMonth:
-    displayName: Month
+    displayName: "Month"
   formula.completedPomos:
-    displayName: Completed
+    displayName: "Completed"
   formula.attemptedPomos:
-    displayName: Attempted
+    displayName: "Attempted"
   formula.interruptedPomos:
-    displayName: Interrupted
+    displayName: "Interrupted"
   formula.focusMinutes:
-    displayName: Focus minutes
+    displayName: "Focus minutes"
   formula.focusTime:
-    displayName: Focus time
+    displayName: "Focus time"
   formula.completionRate:
-    displayName: Completion
+    displayName: "Completion"
   formula.shortBreaks:
-    displayName: Short breaks
+    displayName: "Short breaks"
   formula.longBreaks:
-    displayName: Long breaks
+    displayName: "Long breaks"
 
 views:
   - type: table

@@ -1,3 +1,8 @@
 {
-  "cssTheme": "Elysian"
+  "cssTheme": "Elysian",
+  "enabledCssSnippets": [
+    "Italics-Mod"
+  ],
+  "showViewHeader": true,
+  "showRibbon": true
 }

@@ -1,0 +1,1 @@
+The only [[Chirality|optically inactive]] (non-chiral) [[Amino Acid]], due to having a hydrogen were the [[Amino Acid#R Group|R group]] would normally go

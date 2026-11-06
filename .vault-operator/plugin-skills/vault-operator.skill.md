@@ -110,7 +110,7 @@ advancedApi:
   telemetryRecordPromptPreview: false
 enableSemanticIndex: true
 embeddingModels: [1 items]
-activeEmbeddingModelKey: bge-large:335m|ollama
+activeEmbeddingModelKey: Embeddinggemma-2:latest|ollama
 semanticBatchSize: 20
 semanticAutoIndex: never
 semanticIndexPdfs: true
@@ -122,6 +122,7 @@ enableContextualRetrieval: true
 hydeEnabled: false
 weightedFusionEnabled: true
 semanticAutoIndexOnChange: false
+embeddingKeepAlive: 15s
 enableGraphExpansion: true
 graphExpansionHops: 1
 mocPropertyNames: [moc]
@@ -170,7 +171,7 @@ memory:
       unknown: manual
     livingDocumentByDefault: true
     strictSourceIsolation: false
-  lastAgingRunAt: 2026-10-25T17:00:11.347Z
+  lastAgingRunAt: 2026-11-06T00:21:45.896Z
   lastCapabilityHash: ae633956
 chatLinking:
   enabled: true
@@ -210,10 +211,9 @@ mastery:
 onboarding:
   completed: false
   currentStep: backup
-  startedAt: 2026-09-09T15:59:30.691Z
   firstRunModalShownCount: 1
   dontShowFirstRunAgain: false
-  modalCompleted: true
+  modalCompleted: false
 sandboxMode: auto
 safeStoragePlaintextFallbackAcknowledged: false
 frontmatterOperatorHintDismissed: false
@@ -287,6 +287,8 @@ _pluginDataDirsMigrated: true
 _legacyVaultDirsCleaned: true
 _historyRepairStatus: complete
 schemaVersion: 2026.5.15
+inlineActions:
+  enabled: false
 _encrypted: true
 ```
 (14 sensitive field(s) redacted)

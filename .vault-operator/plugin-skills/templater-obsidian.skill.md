@@ -6,8 +6,7 @@ plugin-type: community
 status: enabled
 class: FULL
 description: "Advanced templating and automation using handlebars-like syntax."
-has-settings: false
-needs-setup: true
+has-settings: true
 commands:
   - id: "templater-obsidian:insert-templater"
     name: "Templater: Open insert template modal"
@@ -24,11 +23,6 @@ commands:
 **Description:** Advanced templating and automation using handlebars-like syntax.
 **Status:** Enabled
 **Plugin ID:** templater-obsidian
-
-## Setup Required
-
-No settings file found (data.json). Plugin may need initial setup via Obsidian Settings.
-Guide the user to configure this plugin via Obsidian Settings if needed.
 
 ## Available Commands
 
@@ -48,6 +42,25 @@ To configure this plugin programmatically:
 3. Write changes: write_file(".obsidian/plugins/templater-obsidian/data.json", updatedJSON)
 
 Do NOT ask the user to open Settings UI. Modify data.json directly.
+
+## Current Configuration
+
+These are the plugin's current settings (sensitive values redacted):
+
+```
+data_version: 2
+command_timeout: 5
+templates_folder: _functional/templates
+trigger_on_file_creation_mode: none
+auto_jump_to_cursor: false
+jump_to_cursor_after_file_name: false
+syntax_highlighting: true
+syntax_highlighting_mobile: false
+intellisense_render: 1
+ignore_folders_on_creation: [1 items]
+```
+
+For full settings, read: `.obsidian/plugins/templater-obsidian/data.json`
 
 ## Documentation
 

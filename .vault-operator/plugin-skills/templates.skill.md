@@ -3,7 +3,7 @@ id: templates
 name: Templates
 source: core
 plugin-type: core
-status: enabled
+status: disabled
 class: PARTIAL
 description: "Insert predefined note templates"
 has-settings: false
@@ -22,7 +22,7 @@ Use this skill when the user asks to apply a template to a note. The template fo
 
 ## Setup Required
 
-No settings file found (data.json). Plugin may need initial setup via Obsidian Settings.
+Plugin is disabled. Use enable_plugin to activate it first.
 
 ## Configuration File
 

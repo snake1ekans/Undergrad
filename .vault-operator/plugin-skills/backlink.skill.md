@@ -6,8 +6,7 @@ plugin-type: core
 status: enabled
 class: FULL
 description: "View and navigate backlinks between notes"
-has-settings: false
-needs-setup: true
+has-settings: true
 commands:
   - id: "backlink:open"
     name: "Open backlinks pane"
@@ -26,10 +25,6 @@ Available commands:
 
 Use this skill when the user asks about connections between notes, what links to a specific note, or wants to see the backlink panel. For programmatic backlink analysis, prefer the get_linked_notes tool.
 
-## Setup Required
-
-No settings file found (data.json). Plugin may need initial setup via Obsidian Settings.
-
 ## Configuration File
 
 Settings path: `.obsidian/backlink.json`
@@ -40,6 +35,14 @@ To configure this plugin programmatically:
 3. Write changes: write_file(".obsidian/backlink.json", updatedJSON)
 
 Do NOT ask the user to open Settings UI. Modify config directly.
+
+## Current Configuration
+
+```
+backlinkInDocument: true
+```
+
+For full settings, read: `.obsidian/backlink.json`
 
 ## Documentation
 

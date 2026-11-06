@@ -1,0 +1,3 @@
+Used somewhat interchangably with the term "stereoisomerism" (with a couple small differences, ask IUPAC), chirality is a way of classifying the shape of [[Isomers#Stereoisomers|Stereoisomers]]. 
+
+The way that R/S is determined is using a complex system. First, priority is assigned to the each of the 4 atoms around the [[Chirality|chiral center]]. Priority goes by [[atomic number]] of functional groups, and goes down the chain until a difference is found. Once the priority is found, the lowest-priority atom is placed facing away, and then the path is traced in decreasing priority. Clockwise rotation is labeled R (rectus) and counterclockwise is labeled S (sinister). This replaced the old L-R nomenclature.

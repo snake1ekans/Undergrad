@@ -1,0 +1,1 @@
+The process of making a metric that is indirectly measurable (such as fatigue) and making it measurable (quantifying it)

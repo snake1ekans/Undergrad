@@ -1,0 +1,1 @@
+The graphical depiction of a [[titration]], in which an unknown concentration of a substance is reacted with a known concentration of an opposite substance until the solution neutralizes or an indicator indicates.

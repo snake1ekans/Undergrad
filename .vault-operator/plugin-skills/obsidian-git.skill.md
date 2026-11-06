@@ -6,8 +6,7 @@ plugin-type: community
 status: enabled
 class: FULL
 description: "Integrate Git version control with automatic backup and other advanced features."
-has-settings: false
-needs-setup: true
+has-settings: true
 commands:
   - id: "obsidian-git:edit-gitignore"
     name: "Git: Edit .gitignore"
@@ -101,11 +100,6 @@ commands:
 **Status:** Enabled
 **Plugin ID:** obsidian-git
 
-## Setup Required
-
-No settings file found (data.json). Plugin may need initial setup via Obsidian Settings.
-Guide the user to configure this plugin via Obsidian Settings if needed.
-
 ## Available Commands
 
 Available command IDs (use execute_command for Obsidian-native commands):
@@ -162,6 +156,77 @@ To configure this plugin programmatically:
 3. Write changes: write_file(".obsidian/plugins/obsidian-git/data.json", updatedJSON)
 
 Do NOT ask the user to open Settings UI. Modify data.json directly.
+
+## Current Configuration
+
+These are the plugin's current settings (sensitive values redacted):
+
+```
+commitMessage: vault backup: {{date}}
+autoCommitMessage: vault backup: {{date}}
+commitDateFormat: YYYY-MM-DD HH:mm:ss
+autoSaveInterval: 60
+autoPushInterval: 0
+autoPullInterval: 60
+autoPullOnBoot: true
+autoCommitGlobMode: exclude
+disablePush: false
+pullBeforePush: true
+squashCommitsBeforePush: true
+disablePopups: false
+showErrorNotices: true
+disablePopupsForNoChanges: false
+listChangedFilesInMessageBody: false
+showStatusBar: true
+updateSubmodules: false
+syncMethod: merge
+rebaseAutoStash: enabled
+mergeStrategy: ours
+customMessageOnAutoBackup: false
+autoBackupAfterFileChange: true
+treeStructure: true
+refreshSourceControl: false
+differentIntervalCommitAndPush: false
+changedFilesInStatusBar: true
+limitToVault: false
+showedMobileNotice: true
+refreshSourceControlTimer: 7000
+showBranchStatusBar: true
+setLastSaveToLastCommit: false
+submoduleRecurseCheckout: false
+showFileMenu: true
+authorInHistoryView: hide
+dateInHistoryView: false
+diffStyle: split
+diffTimeout: 50
+autoStageOnEmptyIndex: true
+hunks:
+  showSigns: false
+  hunkCommands: false
+  statusBar: disabled
+lineAuthor:
+  show: false
+  followMovement: inactive
+  authorDisplay: initials
+  showCommitHash: false
+  dateTimeFormatOptions: date
+  dateTimeFormatCustomString: YYYY-MM-DD HH:mm
+  dateTimeTimezone: viewer-local
+  coloringMaxAge: 1y
+  colorNew:
+    r: 255
+    g: 150
+    b: 150
+  colorOld:
+    r: 120
+    g: 160
+    b: 255
+  textColorCss: var(--text-muted)
+  ignoreWhitespace: false
+```
+(1 sensitive field(s) redacted)
+
+For full settings, read: `.obsidian/plugins/obsidian-git/data.json`
 
 ## Documentation
 

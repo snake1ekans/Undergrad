@@ -3,7 +3,7 @@ id: note-composer
 name: Note Composer
 source: core
 plugin-type: core
-status: enabled
+status: disabled
 class: FULL
 description: "Split, merge, and extract content between notes"
 has-settings: false
@@ -28,7 +28,7 @@ Use this skill when the user wants to reorganize notes: splitting long notes, me
 
 ## Setup Required
 
-No settings file found (data.json). Plugin may need initial setup via Obsidian Settings.
+Plugin is disabled. Use enable_plugin to activate it first.
 
 ## Configuration File
 

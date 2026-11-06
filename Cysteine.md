@@ -1,0 +1,1 @@
+The only [[Amino Acid]] used in life that is [[Chirality|S]].

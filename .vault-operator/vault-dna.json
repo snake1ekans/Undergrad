@@ -1,5 +1,5 @@
 {
-  "scannedAt": "2026-10-25T17:00:12.841Z",
+  "scannedAt": "2026-11-06T07:12:08.719Z",
   "agentVersion": "0.1.0",
   "mode": "local",
   "plugins": [
@@ -18,7 +18,7 @@
       "name": "Canvas",
       "type": "core",
       "classification": "FULL",
-      "status": "enabled",
+      "status": "disabled",
       "source": "core",
       "skillFile": "canvas.skill.md",
       "description": "Visual canvas with cards, links, and spatial notes"
@@ -38,7 +38,7 @@
       "name": "Note Composer",
       "type": "core",
       "classification": "FULL",
-      "status": "enabled",
+      "status": "disabled",
       "source": "core",
       "skillFile": "note-composer.skill.md",
       "description": "Split, merge, and extract content between notes"
@@ -58,7 +58,7 @@
       "name": "Templates",
       "type": "core",
       "classification": "PARTIAL",
-      "status": "enabled",
+      "status": "disabled",
       "source": "core",
       "skillFile": "templates.skill.md",
       "description": "Insert predefined note templates"
@@ -68,7 +68,7 @@
       "name": "Search",
       "type": "core",
       "classification": "PARTIAL",
-      "status": "enabled",
+      "status": "disabled",
       "source": "core",
       "skillFile": "global-search.skill.md",
       "description": "Full-text search across the vault"
@@ -78,7 +78,7 @@
       "name": "Quick Switcher",
       "type": "core",
       "classification": "PARTIAL",
-      "status": "enabled",
+      "status": "disabled",
       "source": "core",
       "skillFile": "switcher.skill.md",
       "description": "Quickly navigate to any note by name"
@@ -108,7 +108,7 @@
       "name": "Tags",
       "type": "core",
       "classification": "PARTIAL",
-      "status": "enabled",
+      "status": "disabled",
       "source": "core",
       "skillFile": "tag-pane.skill.md",
       "description": "Browse all tags used in the vault"
@@ -241,7 +241,7 @@
       "type": "community",
       "classification": "FULL",
       "status": "enabled",
-      "version": "4.5.0",
+      "version": "4.6.0",
       "source": "vault-native",
       "description": "Open a specified note, canvas, base, or workspace on startup, or set it for quick access later.",
       "skillFile": "homepage.skill.md"
@@ -252,21 +252,10 @@
       "type": "community",
       "classification": "FULL",
       "status": "enabled",
-      "version": "3.4.3",
+      "version": "3.5.0",
       "source": "vault-native",
       "description": "Replace the default file explorer with a clean two-pane interface featuring folder tree, tag browsing, file previews, keyboard navigation, drag-and-drop, pinned notes, and customizable display options.",
       "skillFile": "notebook-navigator.skill.md"
-    },
-    {
-      "id": "obsidian-excalidraw-plugin",
-      "name": "Excalidraw",
-      "type": "community",
-      "classification": "FULL",
-      "status": "enabled",
-      "version": "2.28.1",
-      "source": "vault-native",
-      "description": "Sketch Your Mind. Edit and view Excalidraw drawings. Enter the world of 4D Visual PKM.",
-      "skillFile": "obsidian-excalidraw-plugin.skill.md"
     },
     {
       "id": "obsidian-git",
@@ -274,7 +263,7 @@
       "type": "community",
       "classification": "FULL",
       "status": "enabled",
-      "version": "2.41.1",
+      "version": "2.42.0",
       "source": "vault-native",
       "description": "Integrate Git version control with automatic backup and other advanced features.",
       "skillFile": "obsidian-git.skill.md"
@@ -296,7 +285,7 @@
       "type": "community",
       "classification": "PARTIAL",
       "status": "enabled",
-      "version": "1.31.0",
+      "version": "1.32.0",
       "source": "vault-native",
       "description": "A search engine that just works.",
       "skillFile": "omnisearch.skill.md"
@@ -307,7 +296,7 @@
       "type": "community",
       "classification": "FULL",
       "status": "enabled",
-      "version": "3.6.18",
+      "version": "3.7.3",
       "source": "vault-native",
       "description": "Enhance your notes with customizable banner images, including AI-generated designs and a curated store of downloadable banners. Transform your workspace with visually stunning headers that add context, improve aesthetics, and take your note-taking beyond the ordinary.",
       "skillFile": "pexels-banner.skill.md"
@@ -329,7 +318,7 @@
       "type": "community",
       "classification": "FULL",
       "status": "enabled",
-      "version": "4.13.8",
+      "version": "4.15.0",
       "source": "vault-native",
       "description": "Note-based task management with calendar, pomodoro and time-tracking integration.",
       "skillFile": "tasknotes.skill.md"
@@ -340,7 +329,7 @@
       "type": "community",
       "classification": "FULL",
       "status": "enabled",
-      "version": "2.25.1",
+      "version": "2.26.0",
       "source": "vault-native",
       "description": "Advanced templating and automation using handlebars-like syntax.",
       "skillFile": "templater-obsidian.skill.md"
@@ -362,10 +351,21 @@
       "type": "community",
       "classification": "PARTIAL",
       "status": "enabled",
-      "version": "1.12.2",
+      "version": "1.14.1",
       "source": "vault-native",
       "description": "Sync flashcards from a folder in your vault to Anki. Pure Markdown syntax. No fuss.",
       "skillFile": "yanki.skill.md"
+    },
+    {
+      "id": "text-extractor",
+      "name": "Text Extractor",
+      "type": "community",
+      "classification": "PARTIAL",
+      "status": "enabled",
+      "version": "0.7.0",
+      "source": "vault-native",
+      "description": "A (companion) plugin to facilitate the extraction of text from images (OCR) and PDFs.",
+      "skillFile": "text-extractor.skill.md"
     }
   ],
   "archived": []

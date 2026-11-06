@@ -1,0 +1,1 @@
+γ-aminobytyric acid, a type of [[Amino Acid]] used as a [[neurotransmitter]].

@@ -11,7 +11,7 @@ Coming from another app? Read the switching guides for [Evernote](https://notebo
 
 <br/>
 
-![Obsidian Downloads](https://img.shields.io/badge/dynamic/json?logo=obsidian&color=%23483699&label=Downloads&query=%24%5B%22notebook-navigator%22%5D.downloads&url=https%3A%2F%2Fraw.githubusercontent.com%2Fobsidianmd%2Fobsidian-releases%2Fmaster%2Fcommunity-plugin-stats.json) ![Obsidian Compatibility](https://img.shields.io/badge/Obsidian-v1.11.0+-483699?logo=obsidian&style=flat-square) [![Discord](https://img.shields.io/discord/1405458145974943846?color=7289da&label=Discord&logo=discord&logoColor=white)](https://discord.gg/6eeSUvzEJr)
+![Obsidian Downloads](https://img.shields.io/badge/dynamic/json?logo=obsidian&color=%23483699&label=Downloads&query=%24%5B%22notebook-navigator%22%5D.downloads&url=https%3A%2F%2Fraw.githubusercontent.com%2Fobsidianmd%2Fobsidian-releases%2Fmaster%2Fcommunity-plugin-stats.json) ![Obsidian Compatibility](https://img.shields.io/badge/Obsidian-v1.13.0+-483699?logo=obsidian&style=flat-square) [![Discord](https://img.shields.io/discord/1405458145974943846?color=7289da&label=Discord&logo=discord&logoColor=white)](https://discord.gg/6eeSUvzEJr)
 
 [![Quality checks](https://github.com/johansan/notebook-navigator/actions/workflows/ci.yml/badge.svg)](https://github.com/johansan/notebook-navigator/actions/workflows/ci.yml) [![Security scan](https://github.com/johansan/notebook-navigator/actions/workflows/codeql.yml/badge.svg)](https://github.com/johansan/notebook-navigator/actions/workflows/codeql.yml)
 
@@ -168,10 +168,12 @@ Filters files by display name, alias, tags, properties, dates, folders, extensio
 
 - `.key` - Include notes with a property key that starts with `key`
 - `.key=value` - Include notes where the property value contains `value`
+- `.key=null` - Include notes where the property `key` exists with no value (`.key="null"` searches for the text `null`)
 - `."Reading Status"` - Property key with whitespace (double-quoted)
 - `."Reading Status"="In Progress"` - Keys and values with whitespace must be double-quoted
 - `-.key` - Exclude notes with a property key that starts with `key`
 - `-.key=value` - Exclude notes where the property value contains `value`
+- `-.key=null` - Exclude notes where the property `key` exists with no value
 - Cmd/Ctrl+Click a property to add with AND. Cmd/Ctrl+Shift+Click to add with OR
 
 **Filters**
@@ -253,9 +255,6 @@ Add multiple bindings per action to support alternate keys, like the `ArrowUp` a
 | `pane:page-up`                    | PageUp                            |
 | `pane:page-down`                  | PageDown                          |
 | `pane:home`                       | Home                              |
-| `pane:end`                        | End                               |
-| `pane:rename`                     | Enter (macOS), F2 (Windows/Linux) |
-| `pane:delete-selected`            | Delete, Backspace                 |
-| `navigation:c
+| `pane:end`                        | E
 
 ...[truncated]

@@ -1,0 +1,1 @@
+Studies whose [[populationi|populations]] are assigned randomly into [[treatment group|treatment]] and [[control group|control groups]]. This is used to study the efficacy of a treatment on different patients.

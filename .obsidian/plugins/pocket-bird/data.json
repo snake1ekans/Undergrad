@@ -2,7 +2,11 @@
   "unlockedSpecies": [
     "bluebird",
     "barnSwallow",
-    "spangledCotinga"
+    "spangledCotinga",
+    "violetBackedStarling",
+    "whiteWingedFairywren",
+    "europeanRobin",
+    "americanRobin"
   ],
   "currentSpecies": "spangledCotinga",
   "unlockedHats": [
@@ -11,7 +15,13 @@
     "wizard-hat",
     "sun-hat",
     "beanie",
-    "top-hat"
+    "top-hat",
+    "fez",
+    "cowboy-hat",
+    "viking-helmet",
+    "baseball-cap",
+    "flower-hat",
+    "straw-hat"
   ],
   "currentHat": "none",
   "settings": {

@@ -57,6 +57,13 @@ anuppuccin-theme-settings@@anp-colorful-frame-icon-toggle-dark: false
 anuppuccin-theme-settings@@anp-file-icons: false
 anuppuccin-theme-settings@@anp-floating-header: false
 anuppuccin-theme-settings@@anp-collapse-folders: false
+notebook-navigator-style-settings@@nn-theme-calendar-hover-bg@@dark: #E34622
+notebook-navigator-style-settings@@nn-theme-calendar-day-today-bg@@dark: #E34622
+notebook-navigator-style-settings@@nn-theme-calendar-note-indicator-color@@dark: #E34622
+buttons-styles@@button-background@@dark: #E34622
+buttons-styles@@button-text@@dark: #000000
+buttons-styles@@button-border@@dark: #E34622
+buttons-styles@@button-box-shadow@@dark: #E34622
 ```
 
 For full settings, read: `.obsidian/plugins/obsidian-style-settings/data.json`

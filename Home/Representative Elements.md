@@ -1,0 +1,1 @@
+The elements that have predictable [[electron configuration|electron configurations,]] represented as 1A-8A. This is in contrast to the [[Non-representative elements]].

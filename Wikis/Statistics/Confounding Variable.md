@@ -1,0 +1,1 @@
+A variable that could potentially relate to either the [[Dependent Variable]] or [[Independent Variable]].

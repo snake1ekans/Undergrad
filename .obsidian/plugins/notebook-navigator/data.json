@@ -3,7 +3,7 @@
     {
       "id": "default",
       "name": "Default",
-      "fileVisibility": "supported",
+      "fileVisibility": "all",
       "propertyKeys": [],
       "hiddenFolders": [
         "_*"
@@ -90,6 +90,7 @@
     "calendarPlacement": "synced",
     "calendarLeftPlacement": "synced",
     "calendarWeeksToShow": "synced",
+    "defaultListMode": "synced",
     "compactItemHeight": "synced",
     "compactItemHeightScaleText": "synced",
     "featureImageSize": "synced",
@@ -162,6 +163,7 @@
   "externalIconProviders": {},
   "showReleaseNotes": true,
   "checkForUpdatesOnStart": true,
+  "showMarkdownPointBannerAtTop": true,
   "pinNavigationBanner": true,
   "showNoteCount": true,
   "separateNoteCounts": true,
@@ -529,18 +531,28 @@
   "folderBackgroundColors": {},
   "folderSortOverrides": {},
   "folderTreeSortOverrides": {},
+  "folderChildOrder": {
+    "/": [
+      "Home",
+      "Notebooks",
+      "Wikis",
+      "_functional"
+    ]
+  },
   "folderAppearances": {},
   "tagIcons": {},
   "tagColors": {},
   "tagBackgroundColors": {},
   "tagSortOverrides": {},
   "tagTreeSortOverrides": {},
+  "tagChildOrder": {},
   "tagAppearances": {},
   "propertyIcons": {},
   "propertyColors": {},
   "propertyBackgroundColors": {},
   "propertySortOverrides": {},
   "propertyTreeSortOverrides": {},
+  "propertyChildOrder": {},
   "propertyAppearances": {},
   "virtualFolderColors": {},
   "virtualFolderBackgroundColors": {},
@@ -567,13 +579,7 @@
     "#404040",
     "#404040"
   ],
-  "lastShownVersion": "3.4.3",
-  "rootFolderOrder": [
-    "Home",
-    "Notebooks",
-    "Wikis",
-    "_functional"
-  ],
+  "lastShownVersion": "3.5.0",
   "rootTagOrder": [],
   "rootPropertyOrder": []
 }

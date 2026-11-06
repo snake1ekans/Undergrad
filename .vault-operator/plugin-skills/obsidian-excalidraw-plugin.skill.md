@@ -8,6 +8,8 @@ class: FULL
 description: "Sketch Your Mind. Edit and view Excalidraw drawings. Enter the world of 4D Visual PKM."
 has-settings: true
 commands:
+  - id: "obsidian-excalidraw-plugin:show-cli-instructions"
+    name: "Excalidraw: Show CLI and agent instructions"
   - id: "obsidian-excalidraw-plugin:excalidraw-convert-image-from-url-to-local-file"
     name: "Excalidraw: Save image from URL to local file"
   - id: "obsidian-excalidraw-plugin:excalidraw-unzip-file"
@@ -30,6 +32,8 @@ commands:
     name: "Excalidraw: Export stencil library as an *.excalidrawlib file"
   - id: "obsidian-excalidraw-plugin:excalidraw-open-sidepanel"
     name: "Excalidraw: Open Excalidraw Sidepanel"
+  - id: "obsidian-excalidraw-plugin:insert-lucide-icon"
+    name: "Excalidraw: Insert Lucide icon"
   - id: "obsidian-excalidraw-plugin:excalidraw-open"
     name: "Excalidraw: Open existing drawing - IN A NEW PANE"
   - id: "obsidian-excalidraw-plugin:excalidraw-open-on-current"
@@ -131,7 +135,7 @@ commands:
   - id: "obsidian-excalidraw-plugin:insert-image"
     name: "Excalidraw: Insert image or Excalidraw drawing from your vault"
   - id: "obsidian-excalidraw-plugin:import-svg"
-    name: "Excalidraw: Import an SVG file as Excalidraw strokes (limited SVG support, TEXT currently not supported)"
+    name: "Excalidraw: Import an SVG file as editable elements (limited SVG support)"
   - id: "obsidian-excalidraw-plugin:release-notes"
     name: "Excalidraw: Read latest release notes"
   - id: "obsidian-excalidraw-plugin:view-autostart-scripts"
@@ -165,6 +169,7 @@ commands:
 ## Available Commands
 
 Available command IDs (use execute_command for Obsidian-native commands):
+- `obsidian-excalidraw-plugin:show-cli-instructions` -- Excalidraw: Show CLI and agent instructions
 - `obsidian-excalidraw-plugin:excalidraw-convert-image-from-url-to-local-file` -- Excalidraw: Save image from URL to local file
 - `obsidian-excalidraw-plugin:excalidraw-unzip-file` -- Excalidraw: Decompress current Excalidraw file
 - `obsidian-excalidraw-plugin:excalidraw-publish-svg-check` -- Excalidraw: Obsidian Publish: Find SVG and PNG exports that are out of date
@@ -176,6 +181,7 @@ Available command IDs (use execute_command for Obsidian-native commands):
 - `obsidian-excalidraw-plugin:excalidraw-toggle-session-view-mode` -- Excalidraw: Toggle view mode for all Excalidraw drawings until Obsidian restarts
 - `obsidian-excalidraw-plugin:excalidraw-download-lib` -- Excalidraw: Export stencil library as an *.excalidrawlib file
 - `obsidian-excalidraw-plugin:excalidraw-open-sidepanel` -- Excalidraw: Open Excalidraw Sidepanel
+- `obsidian-excalidraw-plugin:insert-lucide-icon` -- Excalidraw: Insert Lucide icon
 - `obsidian-excalidraw-plugin:excalidraw-open` -- Excalidraw: Open existing drawing - IN A NEW PANE
 - `obsidian-excalidraw-plugin:excalidraw-open-on-current` -- Excalidraw: Open existing drawing - IN THE CURRENT ACTIVE PANE
 - `obsidian-excalidraw-plugin:excalidraw-insert-transclusion` -- Excalidraw: Embed a drawing
@@ -226,7 +232,7 @@ Available command IDs (use execute_command for Obsidian-native commands):
 - `obsidian-excalidraw-plugin:edit-selected-markdown-image` -- Excalidraw: Edit Markdown image
 - `obsidian-excalidraw-plugin:refresh-scene-images` -- Excalidraw: Refresh selected image or all images in the current drawing
 - `obsidian-excalidraw-plugin:insert-image` -- Excalidraw: Insert image or Excalidraw drawing from your vault
-- `obsidian-excalidraw-plugin:import-svg` -- Excalidraw: Import an SVG file as Excalidraw strokes (limited SVG support, TEXT currently not supported)
+- `obsidian-excalidraw-plugin:import-svg` -- Excalidraw: Import an SVG file as editable elements (limited SVG support)
 - `obsidian-excalidraw-plugin:release-notes` -- Excalidraw: Read latest release notes
 - `obsidian-excalidraw-plugin:view-autostart-scripts` -- Excalidraw: Autostart scripts
 - `obsidian-excalidraw-plugin:tray-mode` -- Excalidraw: Toggle UI-mode
@@ -255,289 +261,291 @@ Do NOT ask the user to open Settings UI. Modify data.json directly.
 These are the plugin's current settings (sensitive values redacted):
 
 ```
-showTabTitlebarButtons: true
-copyLinkToElemenetAnchorTo100: false
-copyFrameLinkByName: false
-disableDoubleClickTextEditing: false
-phoneFooterSafeAreaPadding: false
-tabletFooterSafeAreaPadding: false
-folder: Excalidraw
-libraryFolderPath: Excalidraw/Libraries
-libraryFileName: local-library
-libraryStorageMode: vault
-libraryMigrationStatus: not-required
-libraryMigrationSnoozeUntil: 0
-embedUseExcalidrawFolder: false
-templateFilePath: Excalidraw/Template.excalidraw
-scriptFolderPath: Excalidraw/Scripts
-allowJavaScriptFiles: false
-storeScriptFilesAsJavaScript: false
-fontAssetsPath: Excalidraw/CJK Fonts
-loadChineseFonts: false
-loadJapaneseFonts: false
-loadKoreanFonts: false
-compress: true
-decompressForMDView: false
-autosaveIntervalDesktop: 60000
-autosaveIntervalMobile: 30000
-drawingFilenamePrefix: Drawing 
-drawingEmbedPrefixWithFilename: true
-drawingFilnameEmbedPostfix:  
-drawingFilenameDateTime: YYYY-MM-DD HH.mm.ss
-useExcalidrawExtension: true
-cropPrefix: cropped_
-annotatePrefix: annotated_
-annotatePreserveSize: false
-displaySVGInPreview: false
-previewImageType: SVG
-renderingConcurrency: 3
-imageCacheRetentionDays: 30
+addDummyTextElement: false
+aiDefaultImageGenerationModel: gpt-image-1
+aiDefaultMultimodalModel: gpt-5-mini
+aiDefaultTextModel: gpt-5-mini
+aiEnabled: true
+aiImageModelConfigs:
+  dall-e-2:
+    model: dall-e-2
+    providerId: OpenAI
+    supportedSizes: [256x256, 512x512, 1024x1024]
+    supportsMaskImageEdits: true
+    supportsPromptImageTransforms: true
+  dall-e-3:
+    model: dall-e-3
+    providerId: OpenAI
+    supportedSizes: [1024x1024, 1792x1024, 1024x1792]
+    supportsMaskImageEdits: false
+    supportsPromptImageTransforms: false
+  gemini-2.5-flash-image:
+    model: gemini-2.5-flash-image
+    providerId: Google Gemini
+    supportedSizes: [1024x1024, 848x1264, 1264x848, 896x1200, 1200x896, 928x1152, 1152x928, 768x1376, 1376x768, 1584x672]
+    supportsMaskImageEdits: false
+    supportsPromptImageTransforms: true
+  gemini-3-pro-image-preview:
+    model: gemini-3-pro-image-preview
+    providerId: Google Gemini
+    supportedSizes: [1024x1024, 2048x2048, 4096x4096, 848x1264, 1696x2528, 3392x5056, 1264x848, 2528x1696, 5056x3392, 896x1200, 1792x2400, 3584x4800, 1200x896, 2400x1792, 4800x3584, 928x1152, 1856x2304, 3712x4608, 1152x928, 2304x1856, 4608x3712, 768x1376, 1536x2752, 3072x5504, 1376x768, 2752x1536, 5504x3072, 1584x672, 3168x1344, 6336x2688]
+    supportsMaskImageEdits: false
+    supportsPromptImageTransforms: true
+  gemini-3.1-flash-image-preview:
+    model: gemini-3.1-flash-image-preview
+    providerId: Google Gemini
+    supportedSizes: [56 items: 512x512, 1024x1024, 2048x2048...]
+    supportsMaskImageEdits: false
+    supportsPromptImageTransforms: true
+  gpt-image-1:
+    model: gpt-image-1
+    providerId: OpenAI
+    supportedSizes: [1024x1024, 1536x1024, 1024x1536]
+    supportsMaskImageEdits: true
+    supportsPromptImageTransforms: true
+  gpt-image-1-mini:
+    model: gpt-image-1-mini
+    providerId: OpenAI
+    supportedSizes: [1024x1024, 1536x1024, 1024x1536]
+    supportsMaskImageEdits: true
+    supportsPromptImageTransforms: true
+  gpt-image-1.5:
+    model: gpt-image-1.5
+    providerId: OpenAI
+    supportedSizes: [1024x1024, 1536x1024, 1024x1536]
+    supportsMaskImageEdits: true
+    supportsPromptImageTransforms: true
+  gpt-image-2:
+    model: gpt-image-2
+    providerId: OpenAI
+    supportedSizes: [1024x1024, 1536x1024, 1024x1536, 2048x2048]
+    supportsMaskImageEdits: true
+    supportsPromptImageTransforms: true
+  grok-imagine-image-pro:
+    model: grok-imagine-image-pro
+    providerId: xAI
+    supportedSizes: [1024x1024]
+    supportsMaskImageEdits: false
+    supportsPromptImageTransforms: true
+  grok-imagine-image-quality:
+    model: grok-imagine-image-quality
+    providerId: xAI
+    supportedSizes: [1024x1024]
+    supportsMaskImageEdits: false
+    supportsPromptImageTransforms: true
+aiProviderProfiles:
+  Anthropic:
+    baseURL: https://api.anthropic.com/v1
+    provider: anthropic
+  Google Gemini:
+    baseURL: https://generativelanguage.googleapis.com/v1beta
+    provider: google
+  OpenAI:
+    baseURL: https://api.openai.com/v1
+    provider: openai
+  OpenAI-compatible:
+    baseURL: https://api.openai.com/v1
+    provider: openai-compatible
+  xAI:
+    baseURL: https://api.x.ai/v1
+    provider: xai
+aiTextModelConfigs:
+  claude-sonnet-4-5:
+    model: claude-sonnet-4-5
+    multimodalSupport: true
+    providerId: Anthropic
+  gemini-2.5-pro:
+    model: gemini-2.5-pro
+    multimodalSupport: true
+    providerId: Google Gemini
+  gpt-5-mini:
+    model: gpt-5-mini
+    multimodalSupport: true
+    providerId: OpenAI
+  grok-4-fast:
+    model: grok-4-fast
+    multimodalSupport: true
+    providerId: xAI
+aiVerboseLogging: false
+allowCtrlClick: true
 allowImageCache: true
 allowImageCacheInScene: true
-displayExportedImageIfAvailable: false
-previewMatchObsidianTheme: false
-width: 400
-overrideObsidianFontSize: false
-dynamicStyling: colorful
-isLeftHanded: false
-desktopUIMode: tray
-tabletUIMode: compact
-phoneUIMode: mobile
-iframeMatchExcalidrawTheme: true
-matchTheme: false
-matchThemeAlways: false
-matchThemeTrigger: false
-defaultMode: normal
-defaultPenMode: never
-penModeDoubleTapEraser: true
-penModeSingleFingerPanning: true
-penModeCrosshairVisible: true
-renderImageInMarkdownReadingMode: false
-renderImageInHoverPreviewForMDNotes: false
-renderImageInMarkdownToPDF: false
+allowJavaScriptFiles: false
 allowPinchZoom: false
 allowWheelZoom: false
-zoomToFitOnOpen: true
-zoomToFitOnResize: false
-zoomToFitMaxLevel: 2
-zoomStep: 0.05
-zoomMin: 0.1
-zoomMax: 30
-parseTODO: false
-todo: ☐
-done: ☑
-hoverPreviewWithoutCTRL: false
-linkOpacity: 1
-openInAdjacentPane: true
-showSecondOrderLinks: true
-focusOnFileTab: true
-openInMainWorkspace: true
-showLinkBrackets: false
-syncElementLinkWithText: false
-allowCtrlClick: true
-forceWrap: false
-pageTransclusionCharLimit: 200
-wordWrappingDefault: 0
-removeTransclusionQuoteSigns: true
-oEmbedAllowed: false
-pngExportScale: 1
-exportWithTheme: true
-exportWithBackground: true
-exportPaddingSVG: 10
-exportEmbedScene: false
-keepInSync: false
-autoexportSVG: false
-autoexportPNG: false
+annotatePrefix: annotated_
+annotatePreserveSize: false
+areaZoomLimit: 1
 autoExportLightAndDark: false
 autoexportExcalidraw: false
-embedType: excalidraw
-embedMarkdownCommentLinks: true
-embedWikiLink: true
-embedPlaceholderImage: true
-syncExcalidraw: false
-experimentalFileType: false
-experimentalFileTag: ✏️
-experimentalLivePreview: true
-fadeOutExcalidrawMarkup: false
-loadPropertySuggestions: false
-experimentalEnableFourthFont: false
-experimantalFourthFont: Virgil
-addDummyTextElement: false
-zoteroCompatibility: false
-fieldSuggester: true
-enableOnloadScripts: false
-enableCommandLinks: false
-compatibilityMode: false
-drawingOpenCount: 0
-library: deprecated
-library2:
-  type: excalidrawlib
-  source: https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.27.3
-imageElementNotice: true
-mdSVGwidth: 500
-mdSVGmaxHeight: 800
-mdFont: Cascadia
-mdFontColor: Black
-mdBorderColor: Black
-markdownImageSettings:
-  defaults:
-    width: 500
-    paddingBottom: 10
-    fontFamily: Cascadia
-    fontColor: Black
-    border:
-      enabled: false
-      color: Black
-    transclusion:
-      enabled: false
-      fontFamily: Cascadia
-      fontColor: Black
-markdownImageDeletionPreference: ask
-previousRelease: 2.28.1
-showReleaseNotes: true
-useDeclarativeSettings: true
-excalidrawMasteryPromoCollapsed: false
+autoexportPNG: false
+autoexportSVG: false
+autosaveIntervalDesktop: 60000
+autosaveIntervalMobile: 30000
+canvasImmersiveEmbed: true
 compareManifestToPluginVersion: true
-showNewVersionNotification: true
-latexBoilerplate: \color{green}e=mc^2
-latexPreambleLocation: preamble.sty
-taskboneEnabled: false
+compatibilityMode: false
+compress: true
+copyFrameLinkByName: false
+copyLinkToElemenetAnchorTo100: false
+cropPrefix: cropped_
 customPens: [10 items: {...}, {...}, {...}...]
-numberOfCustomPens: 0
-pdfScale: 4
-pdfBorderBox: true
-pdfFrame: false
-pdfGapSize: 20
-pdfGroupPages: false
-pdfLockAfterImport: true
-pdfNumColumns: 1
-pdfNumRows: 1
-pdfDirection: right
-pdfImportScale: 0.3
-gridSettings:
-  DYNAMIC_COLOR: true
-  COLOR: #000000
-  OPACITY: 50
-  GRID_DIRECTION:
-    horizontal: true
-    vertical: true
-laserSettings:
-  DECAY_LENGTH: 50
-  DECAY_TIME: 1000
-  COLOR: #ff0000
+decompressForMDView: false
+defaultMode: normal
+defaultPenMode: never
+desktopUIMode: tray
+disableContextMenu: false
+disableDoubleClickTextEditing: false
+displayExportedImageIfAvailable: false
+displaySVGInPreview: false
+done: ☑
+doubleClickLinkOpenViewMode: true
+drawingEmbedPrefixWithFilename: true
+drawingFilenameDateTime: YYYY-MM-DD HH.mm.ss
+drawingFilenamePrefix: Drawing 
+drawingFilnameEmbedPostfix:  
+drawingOpenCount: 0
+dynamicStyling: colorful
+embedMarkdownCommentLinks: true
+embedPlaceholderImage: true
+embedType: excalidraw
+embedUseExcalidrawFolder: false
+embedWikiLink: true
 embeddableMarkdownDefaults:
-  useObsidianDefaults: false
+  backgroundColor: #fff
   backgroundMatchCanvas: false
   backgroundMatchElement: true
-  backgroundColor: #fff
   backgroundOpacity: 60
-  borderMatchElement: true
   borderColor: #fff
+  borderMatchElement: true
   borderOpacity: 0
   filenameVisible: false
   lockedReadingMode: false
+  useObsidianDefaults: false
+enableCommandLinks: false
+enableOnloadScripts: false
+excalidrawMasteryPromoCollapsed: false
+experimantalFourthFont: Virgil
+experimentalEnableFourthFont: false
+experimentalFileTag: ✏️
+experimentalFileType: false
+experimentalLivePreview: true
+exportEmbedScene: false
+exportPaddingSVG: 10
+exportWithBackground: true
+exportWithTheme: true
+fadeOutExcalidrawMarkup: false
+fieldSuggester: true
+focusOnFileTab: true
+folder: Excalidraw
+fontAssetsPath: Excalidraw/CJK Fonts
+forceWrap: false
+gridSettings:
+  COLOR: #000000
+  DYNAMIC_COLOR: true
+  GRID_DIRECTION:
+    horizontal: true
+    vertical: true
+  OPACITY: 50
+hoverPreviewWithoutCTRL: false
+iframeMatchExcalidrawTheme: true
+imageCacheRetentionDays: 30
+imageElementNotice: true
+isLeftHanded: false
+keepInSync: false
+laserSettings:
+  COLOR: #ff0000
+  DECAY_LENGTH: 50
+  DECAY_TIME: 1000
+latexBoilerplate: \color{green}e=mc^2
+latexPreambleLocation: preamble.sty
+library: deprecated
+library2:
+  source: https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.27.3
+  type: excalidrawlib
+libraryFileName: local-library
+libraryFolderPath: Excalidraw/Libraries
+libraryMigrationSnoozeUntil: 0
+libraryMigrationStatus: not-required
+libraryStorageMode: vault
+linkOpacity: 1
+loadChineseFonts: false
+loadJapaneseFonts: false
+loadKoreanFonts: false
+loadPropertySuggestions: false
+longPressDesktop: 500
+longPressMobile: 500
+markdownImageDeletionPreference: ask
+markdownImageSettings:
+  defaults:
+    border:
+      color: Black
+      enabled: false
+    fontColor: Black
+    fontFamily: Cascadia
+    paddingBottom: 10
+    transclusion:
+      enabled: false
+      fontColor: Black
+      fontFamily: Cascadia
+    width: 500
 markdownNodeOneClickEditing: false
-canvasImmersiveEmbed: true
-aiEnabled: true
-aiVerboseLogging: false
-aiProviderProfiles:
-  OpenAI:
-    provider: openai
-    baseURL: https://api.openai.com/v1
-  Anthropic:
-    provider: anthropic
-    baseURL: https://api.anthropic.com/v1
-  Google Gemini:
-    provider: google
-    baseURL: https://generativelanguage.googleapis.com/v1beta
-  xAI:
-    provider: xai
-    baseURL: https://api.x.ai/v1
-  OpenAI-compatible:
-    provider: openai-compatible
-    baseURL: https://api.openai.com/v1
-aiTextModelConfigs:
-  gpt-5-mini:
-    providerId: OpenAI
-    model: gpt-5-mini
-    multimodalSupport: true
-  claude-sonnet-4-5:
-    providerId: Anthropic
-    model: claude-sonnet-4-5
-    multimodalSupport: true
-  gemini-2.5-pro:
-    providerId: Google Gemini
-    model: gemini-2.5-pro
-    multimodalSupport: true
-  grok-4-fast:
-    providerId: xAI
-    model: grok-4-fast
-    multimodalSupport: true
-aiImageModelConfigs:
-  dall-e-2:
-    providerId: OpenAI
-    model: dall-e-2
-    supportedSizes: [256x256, 512x512, 1024x1024]
-    supportsPromptImageTransforms: true
-    supportsMaskImageEdits: true
-  dall-e-3:
-    providerId: OpenAI
-    model: dall-e-3
-    supportedSizes: [1024x1024, 1792x1024, 1024x1792]
-    supportsPromptImageTransforms: false
-    supportsMaskImageEdits: false
-  gpt-image-1:
-    providerId: OpenAI
-    model: gpt-image-1
-    supportedSizes: [1024x1024, 1536x1024, 1024x1536]
-    supportsPromptImageTransforms: true
-    supportsMaskImageEdits: true
-  gpt-image-1-mini:
-    providerId: OpenAI
-    model: gpt-image-1-mini
-    supportedSizes: [1024x1024, 1536x1024, 1024x1536]
-    supportsPromptImageTransforms: true
-    supportsMaskImageEdits: true
-  gpt-image-1.5:
-    providerId: OpenAI
-    model: gpt-image-1.5
-    supportedSizes: [1024x1024, 1536x1024, 1024x1536]
-    supportsPromptImageTransforms: true
-    supportsMaskImageEdits: true
-  gpt-image-2:
-    providerId: OpenAI
-    model: gpt-image-2
-    supportedSizes: [1024x1024, 1536x1024, 1024x1536, 2048x2048]
-    supportsPromptImageTransforms: true
-    supportsMaskImageEdits: true
-  gemini-2.5-flash-image:
-    providerId: Google Gemini
-    model: gemini-2.5-flash-image
-    supportedSizes: [1024x1024, 848x1264, 1264x848, 896x1200, 1200x896, 928x1152, 1152x928, 768x1376, 1376x768, 1584x672]
-    supportsPromptImageTransforms: true
-    supportsMaskImageEdits: false
-  gemini-3.1-flash-image-preview:
-    providerId: Google Gemini
-    model: gemini-3.1-flash-image-preview
-    supportedSizes: [56 items: 512x512, 1024x1024, 2048x2048...]
-    supportsPromptImageTransforms: true
-    supportsMaskImageEdits: false
-  gemini-3-pro-image-preview:
-    providerId: Google Gemini
-    model: gemini-3-pro-image-preview
-    supportedSizes: [1024x1024, 2048x2048, 4096x4096, 848x1264, 1696x2528, 3392x5056, 1264x848, 2528x1696, 5056x3392, 896x1200, 1792x2400, 3584x4800, 1200x896, 2400x1792, 4800x3584, 928x1152, 1856x2304, 3712x4608, 1152x928, 2304x1856, 4608x3712, 768x1376, 1536x2752, 3072x5504, 1376x768, 2752x1536, 5504x3072, 1584x672, 3168x1344, 6336x2688]
-    supportsPromptImageTransforms: true
-    supportsMaskImageEdits: false
-  grok-imagine-image-quality:
-    providerId: xAI
-    model: grok-imagine-image-quality
-    supportedSizes: [1024x1024]
-    supportsPromptImageTransforms: true
-    supportsMaskImageEdits: false
-  grok-imagine-image-pro:
-    providerId: xAI
-    model: grok-imagine-image-pro
-    supportedSize
+matchTheme: false
+matchThemeAlways: false
+matchThemeTrigger: false
+mdBorderColor: Black
+mdFont: Cascadia
+mdFontColor: Black
+mdSVGmaxHeight: 800
+mdSVGwidth: 500
+modifierKeyConfig:
+  Mac:
+    InternalDragAction:
+      defaultAction: link
+      rules: [4 items]
+    LinkClickAction:
+      defaultAction: new-tab
+      rules: [5 items]
+    LocalFileDragAction:
+      defaultAction: image-import
+      rules: [4 items]
+    WebBrowserDragAction:
+      defaultAction: image-url
+      rules: [4 items]
+  Win:
+    InternalDragAction:
+      defaultAction: link
+      rules: [4 items]
+    LinkClickAction:
+      defaultAction: new-tab
+      rules: [5 items]
+    LocalFileDragAction:
+      defaultAction: image-import
+      rules: [4 items]
+    WebBrowserDragAction:
+      defaultAction: image-url
+      rules: [4 items]
+modifierKeyOverrides: [3 items]
+numberOfCustomPens: 0
+oEmbedAllowed: false
+openInAdjacentPane: true
+openInMainWorkspace: true
+overrideObsidianFontSize: false
+pageTransclusionCharLimit: 200
+panWithRightMouseButton: false
+parseTODO: false
+pdfBorderBox: true
+pdfDirection: right
+pdfFrame: false
+pdfGapSize: 20
+pdfGroupPages: false
+pdfImportScale: 0.3
+pdfLockAfterImport: true
+pdfNumColumns: 1
+pdfNumRows: 1
+pdfScale: 4
+pdfSettings:
+
 [...truncated -- full settings in data.json]
 ```
 (8 sensitive field(s) redacted)

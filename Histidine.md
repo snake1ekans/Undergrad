@@ -1,0 +1,1 @@
+Contains an [[imidazole]] ring, which causes it to act as a [[pH Buffer]] 

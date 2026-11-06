@@ -350,7 +350,7 @@ statusSuggestionTrigger: *
 nlpTriggers:
   triggers: [5 items]
 singleClickAction: edit
-doubleClickAction: openNote
+doubleClickAction: none
 projectAutosuggest:
   enableFuzzy: false
   rows: [{title|n(Title)}, {aliases|n(Aliases)}, {file.path|n(Path)}]
@@ -367,12 +367,14 @@ fieldMapping:
   contexts: contexts
   projects: projects
   attachments: attachments
+  assignees: assignees
   timeEstimate: timeEstimate
   completedDate: completedDate
   dateCreated: dateCreated
   dateModified: dateModified
   recurrence: recurrence
   recurrenceAnchor: recurrence_anchor
+  recurrenceOriginalDate: recurrence_original_date
   recurrenceParent: recurrence_parent
   occurrenceDate: occurrence_date
   occurrenceMaterialization: occurrence_materialization
@@ -469,12 +471,13 @@ googleCalendarExport:
   defaultEventDuration: 60
   includeObsidianLink: true
 enableDebugLogging: false
-lastSeenVersion: 4.13.8
-lastNotifiedReleaseVersion: 4.14.0
+lastSeenVersion: 4.15.0
+lastNotifiedReleaseVersion: 4.16.1
 pomodoroState:
   isRunning: false
   timeRemaining: 1500
-lastPomodoroDate: 2026-10-06
+lastPomodoroDate: 2026-11-01
+nlpEnterToSubmit: false
 ```
 (3 sensitive field(s) redacted)
 

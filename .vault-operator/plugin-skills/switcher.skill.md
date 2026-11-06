@@ -3,7 +3,7 @@ id: switcher
 name: Quick Switcher
 source: core
 plugin-type: core
-status: enabled
+status: disabled
 class: PARTIAL
 description: "Quickly navigate to any note by name"
 has-settings: false
@@ -22,7 +22,7 @@ Use this skill when the user wants to navigate to a specific note by name. For p
 
 ## Setup Required
 
-No settings file found (data.json). Plugin may need initial setup via Obsidian Settings.
+Plugin is disabled. Use enable_plugin to activate it first.
 
 ## Configuration File
 

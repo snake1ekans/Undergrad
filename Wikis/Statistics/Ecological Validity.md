@@ -1,0 +1,1 @@
+Whether or not the [[Experimental Design]] of a [[study]] represents the real world.

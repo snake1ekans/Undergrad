@@ -3,7 +3,7 @@ id: tag-pane
 name: Tags
 source: core
 plugin-type: core
-status: enabled
+status: disabled
 class: PARTIAL
 description: "Browse all tags used in the vault"
 has-settings: false
@@ -22,7 +22,7 @@ Use this skill when the user wants to browse or explore tags. For programmatic t
 
 ## Setup Required
 
-No settings file found (data.json). Plugin may need initial setup via Obsidian Settings.
+Plugin is disabled. Use enable_plugin to activate it first.
 
 ## Configuration File
 

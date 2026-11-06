@@ -55,6 +55,12 @@ Do NOT ask the user to open Settings UI. Modify config directly.
 
 ```
 alwaysUpdateLinks: true
+settingsPopoutWindow: false
+strictLineBreaks: true
+propertiesInDocument: hidden
+vimMode: false
+showUnsupportedFiles: true
+deleteUnlinkedAttachments: always
 ```
 
 For full settings, read: `.obsidian/app.json`

@@ -1,0 +1,1 @@
+The charge of a single [[proton]] or [[electron]] is 1.6e-19 Coulombs 

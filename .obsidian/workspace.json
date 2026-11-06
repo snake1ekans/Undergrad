@@ -15,30 +15,25 @@
               "type": "markdown",
               "state": {
                 "file": "Home/Welcome, Gavin.md",
-                "mode": "source",
-                "source": false
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "pinned": true,
               "icon": "lucide-file",
               "title": "Welcome, Gavin"
             }
-          },
-          {
-            "id": "5a2e7b3dae2fc616",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Notebooks/Daily Dumps/2026-10-19.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2026-10-19"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -62,7 +57,20 @@
             }
           },
           {
-            "id": "852db7d79b4b94e8",
+            "id": "4835bcf2928b3fb4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "ce6d947967faef2d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -75,42 +83,12 @@
               "icon": "lucide-folder-closed",
               "title": "Files"
             }
-          },
-          {
-            "id": "6be4eac02c808c44",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "",
-                "matchingCase": false,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              },
-              "icon": "lucide-search",
-              "title": "Search"
-            }
-          },
-          {
-            "id": "4835bcf2928b3fb4",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-bookmark",
-              "title": "Bookmarks"
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 305.93359375
+    "width": 270.27629470825195
   },
   "right": {
     "id": "e79ec039f4504b17",
@@ -137,7 +115,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home/Welcome, Gavin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,49 +128,6 @@
             }
           },
           {
-            "id": "90acbf873092fb5d",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Home/Welcome, Gavin.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links"
-            }
-          },
-          {
-            "id": "d97369e86c893a0d",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
-            "id": "9190e4d6ef3a1243",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "All properties"
-            }
-          },
-          {
             "id": "7c60b018a3ee12ff",
             "type": "leaf",
             "state": {
@@ -203,8 +137,7 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       },
       {
         "id": "e00317d3e4ac930b",
@@ -212,7 +145,7 @@
         "dimension": 73.64990689013035,
         "children": [
           {
-            "id": "5f75b612e15fbd81",
+            "id": "6c6675b404bcb80a",
             "type": "leaf",
             "state": {
               "type": "obsidian-agent-sidebar",
@@ -227,7 +160,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Notebooks/Daily Dumps/2026-10-14.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -240,24 +172,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 271.4842529296875
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "canvas:Create new canvas": false,
-      "templates:Insert template": false,
-      "graph:Open graph view": false,
+      "workspaces:Manage workspace layouts": false,
       "daily-notes:Open today's daily note": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false,
+      "graph:Open graph view": false,
+      "bases:Create new base": true,
       "homepage:Open homepage": false,
       "omnisearch:Omnisearch": false,
-      "obsidian-excalidraw-plugin:New drawing": false,
-      "vault-operator:Vault Operator": false,
       "pexels-banner:🚩 Pixel Banner Menu": false,
       "notebook-navigator:Notebook Navigator": false,
       "templater-obsidian:Templater": false,
+      "vault-operator:Vault Operator": false,
+      "obsidian-git:Open Git source control": false,
       "tasknotes:Open mini calendar view": false,
       "tasknotes:Open calendar view": false,
       "tasknotes:Open tasks view": false,
@@ -265,41 +195,41 @@
       "tasknotes:Open Kanban board": false,
       "tasknotes:Open Pomodoro timer": false,
       "tasknotes:Open Pomodoro statistics": false,
-      "tasknotes:Create new task": false,
-      "obsidian-git:Open Git source control": false
+      "tasknotes:Create new task": false
     }
   },
-  "active": "5a2e7b3dae2fc616",
+  "active": "39bb5f44fa91bed6",
   "lastOpenFiles": [
-    "Notebooks/Daily Dumps/2026-10-20.md",
-    "Notebooks/Daily Dumps/2026-10-21.md",
     "Home/Welcome, Gavin.md",
-    "Mental health essay.md",
-    "Untitled.md",
-    "_functional/TaskNotes/Tasks/Ch 13 quiz.md",
-    "_functional/TaskNotes/Tasks/mental heath essay.md",
-    "_functional/TaskNotes/Tasks/chess database.md",
-    "_functional/TaskNotes/Tasks/Términos problemáticos.md",
-    "_functional/TaskNotes/Tasks/ch 13 lectura.md",
-    "_functional/TaskNotes/Tasks/Rugh Mon reading.md",
-    "_functional/TaskNotes/Tasks/Caso clinico.md",
-    "_functional/TaskNotes/Tasks/presentation response.md",
-    "_functional/TaskNotes/Tasks/Reading response.md",
-    "_functional/TaskNotes/Tasks/Rugh fri reading.md",
-    "_functional/TaskNotes/Tasks/Rugh wed reading.md",
-    "_functional/TaskNotes/Tasks/Rugh.md",
-    "_functional/TaskNotes/Tasks/Seely.md",
-    "_functional/TaskNotes/Tasks/R21.md",
-    "_functional/TaskNotes/Tasks/L21.md",
-    "_functional/TaskNotes/Tasks/R23.md",
-    "_functional/TaskNotes/Tasks/R22.md",
-    "_functional/TaskNotes/Tasks/L22.md",
-    "_functional/TaskNotes/Tasks/Thank you card for Grandma.md",
-    "Home/Sociology Discussion 2.md",
-    "_functional/TaskNotes/Tasks/Digital Dialog.md",
+    "_functional/wiki_templates/Source Template.md",
+    "_functional/wiki_templates/Note Template.md",
+    "_functional/wiki_templates/Meeting Note Template.md",
+    "_functional/wiki_templates",
+    "Statistical Significance.md",
+    "Convenience Sampling.md",
+    "Sampling Bias.md",
+    "Types of Experimental Bias.md",
+    "Question-Order Bias.md",
+    "Home/Base.md",
+    "Home/Acid.md",
+    "Home/Strong Acid.md",
+    "Home/Half-Equivalence Point.md",
+    "Home/Titration Curve.md",
+    "Mixed-Methods Study.md",
+    "Home/Limbic System.md",
+    "Wikis/Academia/Experimental Design.md",
+    "Home/Golgi Apparatus.md",
+    "_functional/TaskNotes/Tasks/Seely Exam.md",
+    "_functional/TaskNotes/Tasks/Sign up for EMS class.md",
+    "Home/Untitled.md",
+    "Proline.md",
+    "Arginine.md",
+    "Wikis/Biology/Amino Acid.md",
+    "Aspartate.md",
+    "pI.md",
+    "IMG_5079.jpg",
     "IMG_5078.jpg",
     "Wikis/Anatomy",
-    "IMG_5079.jpg",
     "Home/Assignments",
     "Notebooks/Class Rants",
     "Notebooks",
@@ -312,7 +242,6 @@
     "_functional/bdf8c8d1706de58ed33dbece1b03fddf.jpg",
     "_functional/Portrait_phasmid.png",
     "_functional/templates",
-    "Wikis/Statistics",
     "_functional/2e73150c0ab935904bcecca40118e54e.jpeg"
   ]
 }

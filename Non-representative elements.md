@@ -1,0 +1,1 @@
+The [[transition metal|transition metals]] and [[lanthanides]]/[[actinides]], which have unpredictable [[Electron Configuration|electron configurations]].

@@ -55,10 +55,12 @@ homepages:
     view: Reading view
     revertView: true
     openWhenEmpty: true
+    openOnNewTab: false
     refreshDataview: false
     autoCreate: false
     autoScroll: false
     pin: true
+    commands: [3 items]
     alwaysApply: false
     hideReleaseNotes: true
 separateMobile: false

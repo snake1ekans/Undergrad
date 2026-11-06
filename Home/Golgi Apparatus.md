@@ -1,0 +1,1 @@
+Used to modify [[peptide]] [[hormone|hormones]]. Cleaves the prohormones into the hormones and adds covalent modifications

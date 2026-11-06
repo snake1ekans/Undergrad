@@ -89,7 +89,7 @@
   "embeddingModel": "",
   "embeddingModels": [
     {
-      "name": "bge-large:335m",
+      "name": "Embeddinggemma-2:latest",
       "provider": "ollama",
       "displayName": "Embedding model",
       "baseUrl": "http://localhost:11434",
@@ -99,7 +99,7 @@
       "promptCachingEnabled": false
     }
   ],
-  "activeEmbeddingModelKey": "bge-large:335m|ollama",
+  "activeEmbeddingModelKey": "Embeddinggemma-2:latest|ollama",
   "semanticBatchSize": 20,
   "semanticAutoIndex": "never",
   "semanticExcludedFolders": [],
@@ -113,7 +113,7 @@
   "hydeEnabled": false,
   "weightedFusionEnabled": true,
   "semanticAutoIndexOnChange": false,
-  "embeddingKeepAlive": "",
+  "embeddingKeepAlive": "15s",
   "enableGraphExpansion": true,
   "graphExpansionHops": 1,
   "mocPropertyNames": [
@@ -182,7 +182,7 @@
       "livingDocumentByDefault": true,
       "strictSourceIsolation": false
     },
-    "lastAgingRunAt": "2026-10-25T17:00:11.347Z",
+    "lastAgingRunAt": "2026-11-06T00:21:45.896Z",
     "lastCapabilityHash": "ae633956",
     "tokenBudgetState": {
       "day": "2026-09-09",
@@ -276,7 +276,7 @@
     "completed": false,
     "currentStep": "backup",
     "skippedSteps": [],
-    "startedAt": "2026-09-09T15:59:30.691Z",
+    "startedAt": "2026-11-06T07:28:25.962Z",
     "firstRunModalShownCount": 1,
     "dontShowFirstRunAgain": false,
     "modalCompleted": true
@@ -345,7 +345,7 @@
       "threshold": 10
     },
     "templates": {
-      "templatesLanguage": ""
+      "templatesLanguage": "en"
     },
     "stufe2Hint": {
       "enabled": false,
@@ -393,29 +393,6 @@
     ]
   },
   "providerConfigs": [
-    {
-      "id": "ollama-main",
-      "type": "ollama",
-      "displayName": "Ollama",
-      "enabled": true,
-      "baseUrl": "http://localhost:11434",
-      "apiVersion": "2024-10-21",
-      "discoveredModels": [
-        {
-          "id": "bge-large:335m",
-          "displayName": "bge-large:335m"
-        },
-        {
-          "id": "gemma4:12b",
-          "displayName": "gemma4:12b"
-        }
-      ],
-      "lastRefreshAt": 1789672399834,
-      "tierMapping": {
-        "mid": "gpt-oss:20b"
-      },
-      "tierOverrides": {}
-    },
     {
       "id": "anthropic-main",
       "type": "anthropic",
@@ -542,9 +519,36 @@
         "mid": "claude-sonnet-5",
         "fast": "claude-haiku-4-5-20251001"
       }
+    },
+    {
+      "id": "ollama-main",
+      "type": "ollama",
+      "displayName": "Ollama",
+      "enabled": true,
+      "baseUrl": "http://localhost:11434",
+      "awsAuthMode": "api-key",
+      "discoveredModels": [
+        {
+          "id": "Embeddinggemma-2:latest",
+          "displayName": "Embeddinggemma-2:latest"
+        },
+        {
+          "id": "qwen3:8b",
+          "displayName": "qwen3:8b"
+        }
+      ],
+      "lastRefreshAt": 1793949570346,
+      "tierMapping": {},
+      "tierOverrides": {
+        "mid": "qwen3:8b"
+      },
+      "effortOptIn": {
+        "qwen3:8b": true
+      },
+      "zdrCapable": true
     }
   ],
-  "activeProviderId": "anthropic-main",
+  "activeProviderId": "ollama-main",
   "defaultMainModelTier": "mid",
   "_layoutMigrationStatus": "pending",
   "_globalStorageMigrated": true,
@@ -557,6 +561,8 @@
   "_legacyVaultDirsCleaned": true,
   "_historyRepairStatus": "complete",
   "schemaVersion": "2026.5.15",
-  "inlineActions": {},
+  "inlineActions": {
+    "enabled": false
+  },
   "_encrypted": true
 }

@@ -1,7 +1,7 @@
 20 essential [[Monomer|monomers]] that form the basis of all [[Protein|proteins]]. All are [[Chirality|chiral]] with exception of glycine. All useful amino acids in proteins are [[Enantiomer|enantiomers]] that have a left-handed chirality.
 ___
 # General Structure
-Amino acids are composed of a central carbon (Carbon-Alpha or C$_α$), connected to a [[Amino Acid#Carboxyl Group|carboxyl group]], an [[Amino Acid#Amino Group|amino group]], and a variable [[R-Group]], which provides the differentiation between the various amino acids and also provides the acid its [[Chirality]].
+Amino acids are composed of a central carbon (Carbon-Alpha or C$_α$), connected to a [[Amino Acid#Carboxyl Group|carboxyl group]], an [[Amino Acid#Amino Group|amino group]], and a variable [[R-Group]], which provides the differentiation between the various amino acids and also provides the acid its [[Chirality]]. 
 ## Carboxyl Group
 A [[Carbon|C]][[Oxygen|OO-]] group that bonds to the amino group in a chain.
 ## Amino Group
@@ -9,9 +9,9 @@ A [[Hydrogen|H]]$_3$[[Nitrogen|N+]] group that bonds to the carboxyl group
 ## R Group
 The variable chain that determines an amino acid's net charge, structure, and function.
 ## Chirality
-Amino acids are [[Chirality|chiral]], with most life using, recognizing, and relying on left-handed molecules. Certain right-handed molecules are integrated, especially in the cell walls of bacteria, but left-handed configurations are far more common. [[left-handed]].
+Amino acids are [[Chirality|chiral]], with most life using, recognizing, and relying on left-handed molecules. Certain right-handed molecules are integrated, especially in the cell walls of bacteria, but left-handed configurations are far more common. The only exception to the all-S rule is [[Cysteine]]
 
-The way that R/S is determined is using a complex system. First, priority is assigned to the each of the 4 atoms around the [[Chirality|chiral center]]. Priority goes by atomic number of subgroups, and goes down the chain until a difference is found. Once the priority is found, the lowest-priority atom is placed facing away, and then the path is traced in decreasing priority. Clockwise rotation is labeled R (rectus) and counterclockwise is labeled S (sinister)
+
 ___
 # Bonding Interactions
 Amino acids form [[peptide bond|peptide bonds]], which are formed when a hydroxyl group is removed from the carboxyl group and a hydrogen is removed from the amino group. This reaction always occurs in the C-terminus of the chain, never the N-terminus.
@@ -59,6 +59,17 @@ R groups with no polarity. Strongly [[Hydrophobic]]. Have carbon rings present.
 ___
 # Translation
 [[Translation]] is a process that transfers the information encoded in [[RNA]] into a complete protein. Simply, the [[Ribosome]] takes the [[Codon|codons]] and attaches the appropriate tRNA and protein, forming peptide bonds.
+
+___
+# Subtypes of Amino Acids
+## γ-type
+Amino acids with a 3-carbon backbone attached to their amino group, such as [[GABA]]
+
+
+
+
+
+
 
 
 
