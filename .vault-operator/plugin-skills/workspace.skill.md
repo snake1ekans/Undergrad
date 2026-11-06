@@ -101,7 +101,7 @@ left-ribbon:
     tasknotes:Open Pomodoro statistics: false
     tasknotes:Create new task: false
 active: e7a7b303c61786dc
-lastOpenFiles: [43 items: Home/Welcome, Gavin.md, Statistical Significance.md, Convenience Sampling.md...]
+lastOpenFiles: [43 items: Home/Welcome, Gavin.md, _functional/wiki_templates/Source Template.md, _functional/wiki_templates/Note Template.md...]
 ```
 
 For full settings, read: `.obsidian/workspace.json`

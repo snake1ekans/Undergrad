@@ -211,9 +211,10 @@ mastery:
 onboarding:
   completed: false
   currentStep: backup
+  startedAt: 2026-11-06T07:28:25.962Z
   firstRunModalShownCount: 1
   dontShowFirstRunAgain: false
-  modalCompleted: false
+  modalCompleted: true
 sandboxMode: auto
 safeStoragePlaintextFallbackAcknowledged: false
 frontmatterOperatorHintDismissed: false
@@ -251,6 +252,8 @@ vaultIngest:
   incomingLinksBlock:
     enabled: true
     threshold: 10
+  templates:
+    templatesLanguage: en
   stufe2Hint:
     enabled: false
     hintThresholdScore: 70
@@ -274,7 +277,7 @@ vaultHealth:
   orphanExcludePathPrefixes: [TaskNotes/]
   reciprocalProperties: [1 items]
 providerConfigs: [2 items: {...}, {...}...]
-activeProviderId: anthropic-main
+activeProviderId: ollama-main
 defaultMainModelTier: mid
 _layoutMigrationStatus: pending
 _globalStorageMigrated: true
