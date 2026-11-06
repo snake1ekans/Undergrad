@@ -1,5 +1,9 @@
 ---
 banner: "![[2e73150c0ab935904bcecca40118e54e.jpeg]]"
+icon-image: _functional/2e73150c0ab935904bcecca40118e54e.jpeg
+banner-max-width: 2560
+banner-x: 50
+banner-y: 62
 ---
 >Few of us can begin to imagine the horror of you -- with all of creation reflected in your forebrain. It must be like the highest of hells, a kaleidoscope of fire and writhing glass. Eternal Damnation. Even when you're sleeping... and when you wake, you carry it around on your neck. With eyes open that cannot help but swallow more behind the mirror. I feel great, mute empathy for you.  
   _It's hell. I change my mind. I want to be you._

@@ -45,7 +45,7 @@
     "slotMinTime": "08:00:00",
     "slotMaxTime": "24:00:00",
     "scrollTime": "08:00:00",
-    "firstDay": 1,
+    "firstDay": 0,
     "timeFormat": "24",
     "showWeekends": true,
     "locale": "",
@@ -392,6 +392,16 @@
         "visibleInEdit": true,
         "order": 1,
         "enabled": true
+      },
+      {
+        "id": "attachments",
+        "fieldType": "organization",
+        "group": "organization",
+        "displayName": "Attachments",
+        "visibleInCreation": true,
+        "visibleInEdit": true,
+        "order": 2,
+        "enabled": true
       }
     ],
     "groups": [
@@ -485,17 +495,21 @@
     "eventColorId": null,
     "syncTrigger": "scheduled",
     "createAsAllDay": true,
+    "showAllDayAsFree": false,
     "defaultEventDuration": 60,
     "includeObsidianLink": true,
-    "defaultReminderMinutes": null
+    "defaultReminderMinutes": null,
+    "syncTimeblocks": false,
+    "timeblockTargetCalendarId": "",
+    "timeblockEventTitleTemplate": "{{title}}"
   },
   "enableDebugLogging": false,
-  "lastSeenVersion": "4.15.0",
+  "lastSeenVersion": "4.16.1",
   "lastNotifiedReleaseVersion": "4.16.1",
   "pomodoroState": {
     "isRunning": false,
     "timeRemaining": 1500
   },
-  "lastPomodoroDate": "2026-11-01",
+  "lastPomodoroDate": "2026-11-06",
   "nlpEnterToSubmit": false
 }

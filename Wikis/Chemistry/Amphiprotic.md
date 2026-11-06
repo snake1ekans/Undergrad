@@ -1,0 +1,1 @@
+Also known as Amphoteric, molecules that have both [[basic]] and [[acidic]] functions depending on their context. An example is water, which can act as a base when an acid is [[dissolution|dissolved]] or as an acid when a base is dissolved.

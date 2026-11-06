@@ -10,12 +10,11 @@
           {
             "id": "e7a7b303c61786dc",
             "type": "leaf",
-            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home/Welcome, Gavin.md",
-                "mode": "preview",
+                "file": "Wikis/Chemistry/Welcome, Gavin.md",
+                "mode": "source",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +27,6 @@
                   "unlinkedCollapsed": true
                 }
               },
-              "pinned": true,
               "icon": "lucide-file",
               "title": "Welcome, Gavin"
             }
@@ -88,7 +86,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 270.27629470825195
+    "width": 324.28542709350586
   },
   "right": {
     "id": "e79ec039f4504b17",
@@ -115,6 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Home/Welcome, Gavin.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +144,7 @@
         "dimension": 73.64990689013035,
         "children": [
           {
-            "id": "6c6675b404bcb80a",
+            "id": "5f75b612e15fbd81",
             "type": "leaf",
             "state": {
               "type": "obsidian-agent-sidebar",
@@ -160,6 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Notebooks/Daily Dumps/2026-10-14.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -172,63 +172,63 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.4842529296875
+    "width": 316.092529296875
   },
   "left-ribbon": {
     "hiddenItems": {
-      "workspaces:Manage workspace layouts": false,
+      "homepage:Open homepage": false,
+      "tasknotes:Create new task": false,
       "daily-notes:Open today's daily note": false,
+      "omnisearch:Omnisearch": false,
       "command-palette:Open command palette": false,
       "graph:Open graph view": false,
       "bases:Create new base": true,
-      "homepage:Open homepage": false,
-      "omnisearch:Omnisearch": false,
-      "pexels-banner:🚩 Pixel Banner Menu": false,
-      "notebook-navigator:Notebook Navigator": false,
-      "templater-obsidian:Templater": false,
       "vault-operator:Vault Operator": false,
+      "pexels-banner:🚩 Pixel Banner Menu": true,
+      "notebook-navigator:Notebook Navigator": true,
+      "templater-obsidian:Templater": true,
+      "tasknotes:Open mini calendar view": true,
+      "tasknotes:Open calendar view": true,
+      "tasknotes:Open tasks view": true,
+      "tasknotes:Open agenda view": true,
+      "tasknotes:Open Kanban board": true,
+      "tasknotes:Open Pomodoro timer": true,
+      "tasknotes:Open Pomodoro statistics": true,
       "obsidian-git:Open Git source control": false,
-      "tasknotes:Open mini calendar view": false,
-      "tasknotes:Open calendar view": false,
-      "tasknotes:Open tasks view": false,
-      "tasknotes:Open agenda view": false,
-      "tasknotes:Open Kanban board": false,
-      "tasknotes:Open Pomodoro timer": false,
-      "tasknotes:Open Pomodoro statistics": false,
-      "tasknotes:Create new task": false
+      "workspaces:Manage workspace layouts": false
     }
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Home/Welcome, Gavin.md",
-    "_functional/wiki_templates/Source Template.md",
-    "_functional/wiki_templates/Note Template.md",
-    "_functional/wiki_templates/Meeting Note Template.md",
-    "_functional/wiki_templates",
-    "Statistical Significance.md",
-    "Convenience Sampling.md",
-    "Sampling Bias.md",
-    "Types of Experimental Bias.md",
-    "Question-Order Bias.md",
-    "Home/Base.md",
-    "Home/Acid.md",
-    "Home/Strong Acid.md",
-    "Home/Half-Equivalence Point.md",
-    "Home/Titration Curve.md",
-    "Mixed-Methods Study.md",
-    "Home/Limbic System.md",
-    "Wikis/Academia/Experimental Design.md",
-    "Home/Golgi Apparatus.md",
-    "_functional/TaskNotes/Tasks/Seely Exam.md",
-    "_functional/TaskNotes/Tasks/Sign up for EMS class.md",
+    "Wikis/Chemistry/Resonance.md",
+    "Wikis/Anatomy/Ultimate Cause.md",
+    "Wikis/Anatomy/Proximate Cause.md",
+    "Wikis/Computer Science/Memory Management.md",
+    "Wikis/Biology/Biomolecule.md",
+    "Wikis/Biology/ATP.md",
+    "Wikis/Biology/Allele.md",
+    "Spanish Persuasive Essay.md",
+    "Wikis/Chemistry/Base.md",
+    "Wikis/Biology/Asparagine.md",
+    "Wikis/Chemistry/Amphiprotic.md",
+    "Acid.md",
+    "Wikis/Chemistry/Acid.md",
+    "Wikis/Chemistry/Strong Acid.md",
+    "Home/Acid-Base Reaction.md",
+    "Home/Assignments/Sociology Discussion 2.md",
+    "Wikis/Untitled.md",
     "Home/Untitled.md",
-    "Proline.md",
-    "Arginine.md",
-    "Wikis/Biology/Amino Acid.md",
-    "Aspartate.md",
-    "pI.md",
+    "Wikis/Anatomy/Limbic System 1.md",
+    "Wikis/Biology/Golgi Apparatus.md",
+    "Wikis/Chemistry/Titration Curve.md",
+    "Wikis/Chemistry/Representative Elements.md",
+    "Wikis/Chemistry/Metals.md",
+    "Wikis/Chemistry/Isoelectric Focusing.md",
+    "Wikis/Chemistry/Half-Equivalence Point.md",
+    "Wikis/Chemistry/Fundamental Charge.md",
     "IMG_5079.jpg",
     "IMG_5078.jpg",
+    "_functional/wiki_templates",
     "Wikis/Anatomy",
     "Home/Assignments",
     "Notebooks/Class Rants",
