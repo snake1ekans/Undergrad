@@ -1,0 +1,1 @@
+Organic [[Steroid]] chemicals that either bond to [[steroid receptors]] in the [[Cytoplasm]] or [[Cell Nucleus]]. They are then taken to the nucleus to bond to [[chromatin]], stimulating [[transcription]].

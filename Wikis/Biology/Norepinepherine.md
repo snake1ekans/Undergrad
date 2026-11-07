@@ -1,0 +1,1 @@
+A [[Catecholamine]] hormone that is water-soluble.

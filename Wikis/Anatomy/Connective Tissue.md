@@ -1,3 +1,3 @@
 
 # Basal Lamina
-The "basement membrane" that separates 
+The "basement membrane" composed of the [[extracellular matrix]] 
