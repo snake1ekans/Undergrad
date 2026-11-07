@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "Welcome, Gavin"
             }
+          },
+          {
+            "id": "5b8dc61f206918be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Wikis/Anatomy/Limbic System.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Limbic System"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -198,8 +223,9 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "5b8dc61f206918be",
   "lastOpenFiles": [
+    "Wikis/Chemistry/Welcome, Gavin.md",
     "hormone.md",
     "Wikis/Biology/Golgi Apparatus.md",
     "Catecholamine.md",
@@ -212,7 +238,6 @@
     "Wikis/Biology/Norepinepherine.md",
     "Wikis/Biology/Steroid Hormone.md",
     "Wikis/Chemistry/Steroid.md",
-    "Wikis/Chemistry/Welcome, Gavin.md",
     "Wikis/Chemistry/Resonance.md",
     "Wikis/Anatomy/Ultimate Cause.md",
     "Wikis/Anatomy/Proximate Cause.md",
