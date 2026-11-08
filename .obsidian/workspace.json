@@ -72,7 +72,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 324.28542709350586
+    "width": 270.27629470825195
   },
   "right": {
     "id": "e79ec039f4504b17",
@@ -118,8 +118,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ]
@@ -158,33 +158,33 @@
       }
     ],
     "direction": "horizontal",
-    "width": 316.092529296875
+    "width": 271.4842529296875
   },
   "left-ribbon": {
     "hiddenItems": {
+      "homepage:Open homepage": false,
+      "tasknotes:Create new task": false,
       "daily-notes:Open today's daily note": false,
+      "omnisearch:Omnisearch": false,
       "command-palette:Open command palette": false,
       "graph:Open graph view": false,
       "bases:Create new base": true,
-      "workspaces:Manage workspace layouts": false,
-      "homepage:Open homepage": false,
-      "omnisearch:Omnisearch": false,
-      "pexels-banner:🚩 Pixel Banner Menu": false,
       "vault-operator:Vault Operator": false,
-      "notebook-navigator:Notebook Navigator": false,
-      "templater-obsidian:Templater": false,
+      "pexels-banner:🚩 Pixel Banner Menu": true,
+      "notebook-navigator:Notebook Navigator": true,
+      "templater-obsidian:Templater": true,
+      "tasknotes:Open mini calendar view": true,
+      "tasknotes:Open calendar view": true,
+      "tasknotes:Open tasks view": true,
+      "tasknotes:Open agenda view": true,
+      "tasknotes:Open Kanban board": true,
+      "tasknotes:Open Pomodoro timer": true,
+      "tasknotes:Open Pomodoro statistics": true,
       "obsidian-git:Open Git source control": false,
-      "tasknotes:Open mini calendar view": false,
-      "tasknotes:Open calendar view": false,
-      "tasknotes:Open tasks view": false,
-      "tasknotes:Open agenda view": false,
-      "tasknotes:Open Kanban board": false,
-      "tasknotes:Open Pomodoro timer": false,
-      "tasknotes:Open Pomodoro statistics": false,
-      "tasknotes:Create new task": false
+      "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "2533a64849c5d313",
   "lastOpenFiles": [
     "Wikis/Anatomy/Limbic System.md",
     "Wikis/Chemistry/Welcome, Gavin.md",
