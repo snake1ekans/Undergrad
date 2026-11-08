@@ -71,26 +71,26 @@ left:
   type: split
   children: [1 items: {...}...]
   direction: horizontal
-  width: 270.27629470825195
+  width: 324.28542709350586
 right:
   id: e79ec039f4504b17
   type: split
   children: [2 items: {...}, {...}...]
   direction: horizontal
-  width: 271.4842529296875
+  width: 316.092529296875
 left-ribbon:
   hiddenItems:
-    workspaces:Manage workspace layouts: false
     daily-notes:Open today's daily note: false
     command-palette:Open command palette: false
     graph:Open graph view: false
     bases:Create new base: true
+    workspaces:Manage workspace layouts: false
     homepage:Open homepage: false
     omnisearch:Omnisearch: false
     pexels-banner:🚩 Pixel Banner Menu: false
+    vault-operator:Vault Operator: false
     notebook-navigator:Notebook Navigator: false
     templater-obsidian:Templater: false
-    vault-operator:Vault Operator: false
     obsidian-git:Open Git source control: false
     tasknotes:Open mini calendar view: false
     tasknotes:Open calendar view: false
@@ -101,7 +101,7 @@ left-ribbon:
     tasknotes:Open Pomodoro statistics: false
     tasknotes:Create new task: false
 active: e7a7b303c61786dc
-lastOpenFiles: [43 items: Home/Welcome, Gavin.md, _functional/wiki_templates/Source Template.md, _functional/wiki_templates/Note Template.md...]
+lastOpenFiles: [43 items: Wikis/Anatomy/Limbic System.md, Wikis/Chemistry/Welcome, Gavin.md, hormone.md...]
 ```
 
 For full settings, read: `.obsidian/workspace.json`

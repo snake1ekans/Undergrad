@@ -511,7 +511,7 @@ keyboardShortcuts:
   search:focus-navigation: [1 items]
   search:close: [1 items]
 pinnedNotes:
-  Home/Welcome, Gavin.md:
+  Wikis/Chemistry/Welcome, Gavin.md:
     folder: true
     tag: false
     property: false

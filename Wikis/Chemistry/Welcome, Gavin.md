@@ -22,26 +22,27 @@ ___
 
 <!-- vault-operator:incoming-links -->
 
-> [!relation-in]- 19 Notes link here
+> [!relation-in]- 20 Notes link here
 > | Note |
 > | --- |
-> | [[2026-10-06]] |
-> | [[2026-10-07]] |
-> | [[2026-10-08]] |
-> | [[2026-10-13]] |
-> | [[2026-10-14]] |
-> | [[2026-10-15]] |
-> | [[2026-10-16]] |
-> | [[2026-10-19]] |
-> | [[2026-10-20]] |
-> | [[2026-10-21]] |
-> | [[2026-10-26]] |
-> | [[2026-10-27]] |
-> | [[2026-10-28]] |
-> | [[2026-10-29]] |
-> | [[2026-10-30]] |
-> | [[2026-11-02]] |
-> | [[2026-11-03]] |
-> | [[2026-11-04]] |
-> | [[Daily Note Template]] |
-<!-- /vault-operator:incoming-links sha="bd64ab5" -->
+> | [[Notebooks/Daily Dumps/2026-10-06\|2026-10-06]] |
+> | [[Notebooks/Daily Dumps/2026-10-07\|2026-10-07]] |
+> | [[Notebooks/Daily Dumps/2026-10-08\|2026-10-08]] |
+> | [[Notebooks/Daily Dumps/2026-10-13\|2026-10-13]] |
+> | [[Notebooks/Daily Dumps/2026-10-14\|2026-10-14]] |
+> | [[Notebooks/Daily Dumps/2026-10-15\|2026-10-15]] |
+> | [[Notebooks/Daily Dumps/2026-10-16\|2026-10-16]] |
+> | [[Notebooks/Daily Dumps/2026-10-19\|2026-10-19]] |
+> | [[Notebooks/Daily Dumps/2026-10-20\|2026-10-20]] |
+> | [[Notebooks/Daily Dumps/2026-10-21\|2026-10-21]] |
+> | [[Notebooks/Daily Dumps/2026-10-26\|2026-10-26]] |
+> | [[Notebooks/Daily Dumps/2026-10-27\|2026-10-27]] |
+> | [[Notebooks/Daily Dumps/2026-10-28\|2026-10-28]] |
+> | [[Notebooks/Daily Dumps/2026-10-29\|2026-10-29]] |
+> | [[Notebooks/Daily Dumps/2026-10-30\|2026-10-30]] |
+> | [[Notebooks/Daily Dumps/2026-11-02\|2026-11-02]] |
+> | [[Notebooks/Daily Dumps/2026-11-03\|2026-11-03]] |
+> | [[Notebooks/Daily Dumps/2026-11-04\|2026-11-04]] |
+> | [[Notebooks/Daily Dumps/2026-11-06\|2026-11-06]] |
+> | [[_functional/templates/Daily Note Template\|Daily Note Template]] |
+<!-- /vault-operator:incoming-links sha="3902ff0c" -->

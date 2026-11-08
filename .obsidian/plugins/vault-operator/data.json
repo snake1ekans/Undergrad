@@ -182,7 +182,7 @@
       "livingDocumentByDefault": true,
       "strictSourceIsolation": false
     },
-    "lastAgingRunAt": "2026-11-06T00:21:45.896Z",
+    "lastAgingRunAt": "2026-11-07T07:34:02.277Z",
     "lastCapabilityHash": "ae633956",
     "tokenBudgetState": {
       "day": "2026-09-09",
@@ -537,7 +537,7 @@
           "displayName": "qwen3:8b"
         }
       ],
-      "lastRefreshAt": 1793949570346,
+      "lastRefreshAt": 1794095145408,
       "tierMapping": {},
       "tierOverrides": {
         "mid": "qwen3:8b"

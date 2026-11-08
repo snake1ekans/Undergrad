@@ -121,7 +121,7 @@ pinnedImageFilename: pixel-banner-image
 useNoteFilenameForBanner: false
 imagePropertyFormat: image
 showReleaseNotes: true
-lastVersion: 3.7.3
+lastVersion: 3.7.4
 showRefreshIcon: false
 showViewImageIcon: false
 hidePixelBannerFields: true

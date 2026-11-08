@@ -44,6 +44,8 @@ commands:
     name: "TaskNotes: Quick actions for task under cursor"
   - id: "tasknotes:edit-current-task"
     name: "TaskNotes: Edit current task"
+  - id: "tasknotes:repeat-current-task"
+    name: "TaskNotes: Repeat current task"
   - id: "tasknotes:cycle-current-task-status"
     name: "TaskNotes: Cycle current task status"
   - id: "tasknotes:cycle-current-task-priority"
@@ -115,6 +117,7 @@ Available command IDs (use execute_command for Obsidian-native commands):
 - `tasknotes:quick-actions-current-task` -- TaskNotes: Quick actions for current task
 - `tasknotes:quick-actions-task-under-cursor` -- TaskNotes: Quick actions for task under cursor
 - `tasknotes:edit-current-task` -- TaskNotes: Edit current task
+- `tasknotes:repeat-current-task` -- TaskNotes: Repeat current task
 - `tasknotes:cycle-current-task-status` -- TaskNotes: Cycle current task status
 - `tasknotes:cycle-current-task-priority` -- TaskNotes: Cycle current task priority
 - `tasknotes:add-project-to-current-task` -- TaskNotes: Add project to current task
@@ -302,7 +305,7 @@ calendarViewSettings:
   slotMinTime: 08:00:00
   slotMaxTime: 24:00:00
   scrollTime: 08:00:00
-  firstDay: 1
+  firstDay: 0
   timeFormat: 24
   showWeekends: true
   defaultShowScheduled: true
@@ -436,7 +439,7 @@ enableAPI: false
 apiPort: 8080
 enableMCP: false
 modalFieldsConfig:
-  fields: [9 items: {...}, {...}, {...}...]
+  fields: [10 items: {...}, {...}, {...}...]
   groups: [5 items: {...}, {...}, {...}...]
 enableModalSplitLayout: true
 defaultVisibleProperties: [status, priority, due, scheduled, projects, contexts, tags, blocked, blocking]
@@ -468,15 +471,18 @@ googleCalendarExport:
   includeDescription: true
   syncTrigger: scheduled
   createAsAllDay: true
+  showAllDayAsFree: false
   defaultEventDuration: 60
   includeObsidianLink: true
+  syncTimeblocks: false
+  timeblockEventTitleTemplate: {{title}}
 enableDebugLogging: false
-lastSeenVersion: 4.15.0
+lastSeenVersion: 4.16.1
 lastNotifiedReleaseVersion: 4.16.1
 pomodoroState:
   isRunning: false
   timeRemaining: 1500
-lastPomodoroDate: 2026-11-01
+lastPomodoroDate: 2026-11-06
 nlpEnterToSubmit: false
 ```
 (3 sensitive field(s) redacted)

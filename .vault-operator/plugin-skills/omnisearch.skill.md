@@ -54,7 +54,7 @@ Do NOT ask the user to open Settings UI. Modify data.json directly.
 These are the plugin's current settings (sensitive values redacted):
 
 ```
-useCache: true
+useCache: false
 hideExcluded: false
 recencyBoost: 0
 ignoreDiacritics: true
