@@ -171,11 +171,12 @@ memory:
       unknown: manual
     livingDocumentByDefault: true
     strictSourceIsolation: false
-  lastAgingRunAt: 2026-11-07T07:34:02.277Z
+  lastAgingRunAt: 2026-11-08T08:06:42.672Z
   lastCapabilityHash: ae633956
 chatLinking:
   enabled: true
 autoAddActiveFileContext: false
+resolveEmbedsInAttachments: false
 sendWithEnter: true
 lastChatModelByProvider:
   ollama-main: gemma4:12b
